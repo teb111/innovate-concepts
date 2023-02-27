@@ -1,13 +1,285 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ @import url('https://fonts.cdnfonts.com/css/cabinet-grotesk');
+ @import url('https://fonts.cdnfonts.com/css/satoshi');
+
+:root {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Cabinet Grotesk', sans-serif;                                            
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f4f8ff !important;
+
+}
+
+nav {
+  background: #f4f8ff !important;
+}
+
+ul {
+  justify-content: center;
+  align-items: center;
+  margin-left: -95px;
+}
+
+ul li {
+  margin-left: 40px;
+  letter-spacing: 1.2px;
+  font-size: 16px;
+  font-family: 'Satoshi', sans-serif;
+  color: #475464;
+}
+.img2 {
+  width: 100px;
+  height: auto;
+  margin-left: 30px;
+}
+a {
+  font-family: 'Satoshi', sans-serif;
+  color: #475467 !important;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.navbar {
+  box-shadow: none !important;
+}
+
+.page-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+.banner-header p {
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 1;
+  max-width: 733px;
+  text-align: center;
+  color: #101828;
+  margin: 0px 0px 24px;
+
+}
+
+.banner-text p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 616px;
+  text-align: center;
+  color: #475467;
+  margin: 0px 0px 24px;
+  letter-spacing: 1.4px;
+}
+
+.banner-buttons {
+  /*   background: black; */
+   /* background: black; */
+   color: #ffffff;
+   letter-spacing: 1.6px;
+   font-size: 15px;
+   text-transform: uppercase;
+   font-weight: bold;
+   display: block;
+   padding: 5px 40px;
+   border-radius: 9px;
+   box-shadow: none;
+   background-color: none;
+   cursor: pointer;
+   text-decoration: none;
+   border: 1px solid  #0166AF;
+   background: transparent;
+   background-position: 100% 0px;
+   background-size: 200% 100%;
+   transition: 0.7s ease-in-out;
+   margin-bottom: 10px;
+   height: 35px;
+   margin-top: 33px;
+   background: #0166AF;
+}
+.button p {
+  text-decoration: none;
+  color: #000000;
+}
+
+.btn {
+  padding: 22px 60px !important;
+  border-radius: 12px !important;
+  font-size: 14px !important;
+  letter-spacing: 1.2px
+}
+
+.animating-text {
+  animation: gradient-text 10s linear infinite reverse;
+  background-image: linear-gradient(90deg,#1460dd,#14bf93,#14a8a6,#149ab0,#1467d8);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.img {
+  object-fit: contain;
+  border-radius: 12px;
+  max-width: 100% !important;
+  height: 467px !important;
+  max-width: 768px !important;
+}
+
+.slider {
+  overflow-x: auto;
+    /* background-color: rgb(243 248 255/1); */
+    padding: 20px;
+    width: 100vw;
+}
+
+
+.animate-marquee-left {
+    animation: moveSlideshow 10s linear infinite;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    background-position: 0 -100px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}
+
+.sponsor-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  letter-spacing: 1.2px;
+  font-weight: 800;
+}
+
+section {
+	display:flex;
+	flex-flow:column;
+	align-items:center;
+
+}
+section div .container {
+  transition:all .3s ease;
+
+
+}
+
+.container   h1 { margin:15px 0 0 0; }
+
+.container   h3 { margin:0 0 25px 0; }
+
+@media (max-width:992px) { 
+  section{
+    padding:0 20px 0 20px;
+  }
+
+ }
+
+/* section .slide-option {
+	margin:0 0 50px 0;
+
+} */
+
+.no-marg { margin:0 0 0 0; }
+
+section.slide-option {
+  margin: 0 0 50px 0;
+}
+section.slide-option .no-marg {
+  margin: 0 0 0 0;
+}
+div.highway-slider {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+div.highway-slider div.highway-barrier {
+  overflow: hidden;
+  position: relative;
+}
+div.highway-slider ul.highway-lane {
+  display: flex;
+  height: 100%;
+}
+div.highway-slider ul.highway-lane li.highway-car {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: #343434;
+}
+@keyframes translatestf {
+  0% {
+    transform: translateX(100%);
+ }
+  100% {
+    transform: translateX(-500%);
+ }
+}
+#stffull div.highway-barrier ul.highway-lane {
+  width: 500%;
+}
+#stffull div.highway-barrier ul.highway-lane li.highway-car {
+  animation: translatestf 30s linear infinite;
+}
+#stffull div.highway-barrier ul.highway-lane li.highway-car h4 {
+  font-size: 28px;
+}
+@keyframes translateinfinite {
+  100% {
+    transform: translateX(calc(-2160px));
+ }
+}
+#infinite div.highway-barrier {
+  background: #fff;
+  /* box-shadow: 0 3px 10px -3px rgba(0,0,0,0.3); */
+}
+#infinite div.highway-barrier::before, #infinite div.highway-barrier::after {
+  content: " ";
+  position: absolute;
+  z-index: 9;
+  width: 180px;
+  height: 100%;
+}
+#infinite div.highway-barrier::before {
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right,#ffffff 0%,rgba(255,255,255,0) 100%);
+}
+#infinite div.highway-barrier::after {
+  top: 0;
+  right: 0;
+  background: linear-gradient(to left,#ffffff 0%,rgba(255,255,255,0) 100%);
+}
+#infinite div.highway-barrier ul.highway-lane {
+  width: calc(4320px);
+}
+#infinite div.highway-barrier ul.highway-lane li.highway-car {
+  width: 180px;
+  animation: translateinfinite 25s linear infinite;
+}
+#infinite div.highway-barrier ul.highway-lane li.highway-car span.fab {
+  font-size: 65px;
 }
