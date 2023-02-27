@@ -67,6 +67,8 @@ a {
 
 }
 
+
+
 .banner-text p {
   font-size: 1.25rem;
   font-weight: 400;
@@ -93,7 +95,7 @@ a {
    background-color: none;
    cursor: pointer;
    text-decoration: none;
-   border: 1px solid  #0166AF;
+   border: 1px solid  #31869d;
    background: transparent;
    background-position: 100% 0px;
    background-size: 200% 100%;
@@ -101,7 +103,7 @@ a {
    margin-bottom: 10px;
    height: 35px;
    margin-top: 33px;
-   background: #0166AF;
+   background: #31869d;
 }
 .button p {
   text-decoration: none;
@@ -112,12 +114,14 @@ a {
   padding: 22px 60px !important;
   border-radius: 12px !important;
   font-size: 14px !important;
-  letter-spacing: 1.2px
+  letter-spacing: 1.2px;
+  background: #31869d !important;
+
 }
 
 .animating-text {
   animation: gradient-text 10s linear infinite reverse;
-  background-image: linear-gradient(90deg,#1460dd,#14bf93,#14a8a6,#149ab0,#1467d8);
+  background-image: linear-gradient(90deg,#31869d,#14bf93,#14a8a6,#149ab0,#1467d8);
   background-size: 400%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -282,4 +286,24 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 #infinite div.highway-barrier ul.highway-lane li.highway-car span.fab {
   font-size: 65px;
+}
+
+@media (max-width: 600px) {
+  .banner-header p {
+    font-size: 2rem;
+    max-width: 400px;
+    letter-spacing: 1.2px;
+  } 
+  .banner-text p {
+    font-size: 1rem;
+    margin: 0px 0px 24px;
+    max-width: 400px;
+  }
+  nav ul {
+    padding: 0;
+    width: auto !important;
+  }
+  .sponsor-text {
+    font-size: 17px;
+  }
 }
