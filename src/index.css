@@ -231,7 +231,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  /* background: #fff; */
   color: #343434;
 }
 @keyframes translatestf {
@@ -257,7 +257,7 @@ div.highway-slider ul.highway-lane li.highway-car {
  }
 }
 #infinite div.highway-barrier {
-  background: #fff;
+  /* background: #fff; */
   /* box-shadow: 0 3px 10px -3px rgba(0,0,0,0.3); */
 }
 #infinite div.highway-barrier::before, #infinite div.highway-barrier::after {
@@ -270,12 +270,12 @@ div.highway-slider ul.highway-lane li.highway-car {
 #infinite div.highway-barrier::before {
   top: 0;
   left: 0;
-  background: linear-gradient(to right,#ffffff 0%,rgba(255,255,255,0) 100%);
+  /* background: linear-gradient(to right,#ffffff 0%,rgba(255,255,255,0) 100%); */
 }
 #infinite div.highway-barrier::after {
   top: 0;
   right: 0;
-  background: linear-gradient(to left,#ffffff 0%,rgba(255,255,255,0) 100%);
+  /* background: linear-gradient(to left,#ffffff 0%,rgba(255,255,255,0) 100%); */
 }
 #infinite div.highway-barrier ul.highway-lane {
   width: calc(4320px);
