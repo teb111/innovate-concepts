@@ -366,6 +366,155 @@ div.highway-slider ul.highway-lane li.highway-car {
   letter-spacing: 1px;
 }
 
+.react-tabs__tab-list {
+  border-bottom: none !important;
+}
+
+.react-tabs__tab {
+  /* border: none !important; */
+
+}
+
+.react-tabs__tab--selected {
+  border-top: none !important;
+  border-left: none !important;
+  /* border-right: none !important; */
+  border-bottom: 1px solid black !important;
+
+}
+
+.react-tabs__tab-panel--selected  {
+  padding: 20px;
+}
+
+.container {
+  position: relative;
+  /* width: 50%; */
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 300px;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-80%, -10%);
+  -ms-transform: translate(-40%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.middle span {
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: black;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+}
+
+.text {
+ cursor: pointer;
+  color: black !important;
+  font-size: 14px;
+  padding: 10px 12px;
+  border-radius: 3px;
+  transition: .5s ease-in-out;
+  border: 1px solid black;
+  letter-spacing: 1.2px;
+}
+
+.text:hover{
+  background-color: #31869d;
+  color: white !important
+}
+
+.tab-grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.single-project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 50px;
+  
+}
+
+ h2 {
+  letter-spacing: 1.1px;
+  font-family: 'Cabinet Grotesk', sans-serif;   
+  color: rgba(0, 0, 0, 0.9);
+  text-align: start;
+  font-size: 36px;
+  padding: 35px 39px;
+  background-color: #31869d;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.project-heading {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    letter-spacing: 1.1px;
+    font-family: 'Satoshi', sans-serif;
+
+}
+
+.single-project-info {
+  width:40%
+}
+
+.single-project-info p {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+
+}
+
+.lg-react-element {
+  display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.single-project-gallery {
+  
+  width: 70%
+}
+
+.img-galley {
+  object-fit: contain;
+  border-radius: 12px;
+  /* max-width: 100% !important; */
+  height: auto;
+  width: 200px;
+  margin-left: 10px;
+  margin-bottom: 20px
+}
+
 
 
 @media (max-width: 600px) {
@@ -418,6 +567,20 @@ div.highway-slider ul.highway-lane li.highway-car {
   .our-story {
     margin: 0;
   }
+  .single-project {
+    flex-direction: column;
+  }
+
+.single-project-info {
+  width:100%
+}
+.single-project-gallery {
+  
+  width: 100%
+}
+.tab-grid-container {
+  grid-template-columns: repeat(2, 250px);
+}
 }
 
 @media (max-width: 1200px) {
@@ -438,5 +601,9 @@ div.highway-slider ul.highway-lane li.highway-car {
     object-fit: cover;
     margin-top: 20px;
   }
+
+.tab-grid-container {
+  grid-template-columns: repeat(3, 1fr);
+}
 }
 

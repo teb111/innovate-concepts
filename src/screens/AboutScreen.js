@@ -21,16 +21,35 @@ const AboutScreen = () => {
           <h6 className=''>our story</h6>
           <h5>Who we are</h5>
           <p>
-            We are a diverse team committed to working together to create and
-            deliver sustainable value for food businesses. We are connected by
-            our shared core values which guide and shape our culture.
+            INNOVATE CONCEPTS LTD is a firm of Chartered Architects, Interior
+            Designers, Project Managers and Builders which provide Architectural
+            and Civil Engineering Consultancy Services
           </p>
 
           <p>
-            At Vendease, we are adventurous people striving for excellence and
-            transparency while respecting the individuals that make up our
-            ecosystem. We understand ownership as taking responsibility for the
-            growth in our roles and that of our customers' operations.
+            The company was established in 1987 and has gained a wealth of
+            experience from its diverse body of work in Nigeria and Overseas to
+            further enhance the growing indigenous participation in the
+            construction industry
+          </p>
+          <p>
+            For us, design is the means to create solutions to spatial and
+            programmatic problems. Today, design is being redefined by
+            sustainability. We are continually evolving our organization and
+            design processes to deliver innovation aimed at helping clients and
+            communities become more resourceful, resilient and regenerative.
+          </p>
+        </div>
+        <div className='our-story pt-5'>
+          <h6 className=''>our team</h6>
+          <p>
+            At Innovate Concept , each studio is led by responsive, experienced
+            principals actively engaged in project work. They love what they do,
+            and that kind of enthusiasm is contagious. On average, our
+            principals have invested 15 years of their careers in the
+            Construction Industry, a testament to our commitment to cultivate
+            seasoned leaders with values of service, foresight, and design
+            excellence.
           </p>
         </div>
         <div className='mission-vision'>

@@ -24,7 +24,12 @@ const Header = () => {
       >
         <MDBContainer fluid>
           <MDBNavbarBrand href='#'>
-            <img src='./images/logo.jpg' alt='logo' width={200} height={80} />
+            <img
+              src='https://res.cloudinary.com/teb/image/upload/v1677657516/IMG_2199_fbwgna.png'
+              alt='logo'
+              width={300}
+              // height={100}
+            />
           </MDBNavbarBrand>
 
           <MDBNavbarToggler
@@ -45,7 +50,7 @@ const Header = () => {
                 <Link to='/about'>About</Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <Link to='#'>Project</Link>
+                <Link to='/projects'>Project</Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <Link to='#'>Contact</Link>
