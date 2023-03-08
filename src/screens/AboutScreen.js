@@ -15,7 +15,11 @@ const AboutScreen = () => {
               supply
             </h3>
           </div>
-          <img src='./images/img.jpeg' className='img' alt='work' />
+          <img
+            src='https://res.cloudinary.com/teb/image/upload/v1678194746/innovate-concepts/7_dqpmqk.jpg'
+            className='img'
+            alt='work'
+          />
         </div>
         <div className='our-story pt-5'>
           <h6 className=''>our story</h6>

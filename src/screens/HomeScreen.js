@@ -26,7 +26,11 @@ const HomeScreen = () => {
           </MDBBtn>
         </div>
         <div className='mt-4'>
-          <img src='./images/img.jpeg' className='img' alt='work' />
+          <img
+            src='https://res.cloudinary.com/teb/image/upload/v1678194746/innovate-concepts/7_dqpmqk.jpg'
+            className='img'
+            alt='work'
+          />
         </div>
         <div className='mt-4 slider'>
           <p className='sponsor-text'>Trusted by 3000+ African Businesses</p>

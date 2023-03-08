@@ -11,6 +11,7 @@ import {
   MDBCollapse
 } from 'mdb-react-ui-kit'
 import { Link } from 'react-router-dom'
+import { Facebook, Instagram, LinkedIn, YouTube } from '@mui/icons-material'
 const Header = () => {
   const [showBasic, setShowBasic] = useState(false)
   return (
@@ -53,8 +54,39 @@ const Header = () => {
                 <Link to='/projects'>Project</Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <Link to='#'>Contact</Link>
+                <Link to='/services'>Services</Link>
               </MDBNavbarItem>
+              <MDBNavbarItem>
+                <Link to='/contact'>Contact</Link>
+              </MDBNavbarItem>
+
+              <div
+                style={{
+                  marginLeft: '70px'
+                }}
+                className='icons'
+              >
+                <Link to='#'>
+                  {' '}
+                  <Facebook sx={{ fontSize: 25 }} />
+                </Link>
+
+                <Link to='#'>
+                  {' '}
+                  <YouTube sx={{ fontSize: 25 }} />
+                </Link>
+
+                <Link to='#'>
+                  {' '}
+                  <Instagram sx={{ fontSize: 25 }} />
+                </Link>
+
+                <Link to='#'>
+                  {' '}
+                  <LinkedIn sx={{ fontSize: 25 }} />
+                </Link>
+              </div>
+
               {/* 
               <MDBNavbarItem>
                 <MDBDropdown>
