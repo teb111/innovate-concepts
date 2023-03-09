@@ -22,7 +22,7 @@ nav {
 ul {
   justify-content: center;
   align-items: center;
-  margin-left: -95px;
+  /* margin-left: -95px; */
 }
 
 ul li {
@@ -289,7 +289,7 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 .about-us-banner {
- padding: 20px 60px 0px;
+ padding: 12px 10px 0px;
 
 }
 
@@ -396,8 +396,8 @@ div.highway-slider ul.highway-lane li.highway-car {
 
 .image {
   display: block;
-  width: 300px;
-  height: 350px !important;
+  width: 108%;
+  height: 250px !important;
   transition: .5s ease;
   backface-visibility: hidden;
   margin: 0 auto;
@@ -476,7 +476,7 @@ div.highway-slider ul.highway-lane li.highway-car {
  h2 {
   letter-spacing: 1.1px;
   font-family: 'Cabinet Grotesk', sans-serif;   
-  color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
   text-align: start;
   font-size: 36px;
   padding: 35px 39px;
@@ -525,6 +525,119 @@ div.highway-slider ul.highway-lane li.highway-car {
   width: 200px;
   margin-left: 10px;
   margin-bottom: 20px
+}
+
+.tab-grid-container {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+
+.css-heg063-MuiTabs-flexContainer {
+  justify-content: center;
+}
+
+.css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background: #31869d;
+  color: white !important;
+  border-radius: 4px;
+}
+
+.css-aym9vq-MuiButtonBase-root-MuiTab-root {
+  margin-left: 20px !important
+}
+
+.seperator {
+  border-top: 4px solid #31869d;
+    margin: 10px 0;
+    padding: 0;
+    height: 1px;
+
+}
+
+.content-body h2 {
+  background : none !important
+}
+
+.content-inner {
+  display: flex;
+}
+
+.content-inner ul {
+  margin: 20px
+}
+
+.content-inner li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+  display: none !important;
+}
+
+.icons {
+
+    margin-left: 170px
+  
+}
+
+.icons a {
+  color: none !important;
+  padding: 5px;
+  /* background-color: grey;
+  margin-left: 5px; */
+}
+
+a svg:hover {
+  scale: 1.2;
+  transition: .5s ease-in-out;
+  color: #31869d;
+}
+
+.contact-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 25px;
+  padding: 50px;
+}
+
+.contact-container h3 {
+  margin-bottom: 10px;
+  letter-spacing: 1.2px;
+  font-family: 'Cabinet Grotesk', sans-serif;     
+  font-size: 30px;
+}
+
+.contact-container h4 {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.text-wrap {
+  margin-bottom: 20px;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+}
+
+.text-wrap span {
+  font-weight: 700;
+}
+
+.form-wrapper {
+  border: 8px solid #f2f2f2;
+  padding: 15px;
+  font-family: 'Satoshi', sans-serif;
+  display: block;
+  margin: 0 auto;
+}
+/* .css-1nvn3ta-JoyTextarea-root {
+  width: 77ch;
+} */
+
+.map-frame {
+  width: 100%;
+  height: 400px;
 }
 
 
@@ -613,108 +726,30 @@ div.highway-slider ul.highway-lane li.highway-car {
     object-fit: cover;
     margin-top: 20px;
   }
+  .contact-container {
+
+    grid-template-columns: repeat(1,1fr);
+    margin: 0;
+    padding: 14px;
+   
+  }
+
+  .form-wrapper {
+    width: 100%;
+  }
+
+  .contact-info {
+    margin-left: 95px;
+  }
+
 
 .tab-grid-container {
   grid-template-columns: repeat(3, 1fr);
 }
-}
-
-.css-heg063-MuiTabs-flexContainer {
-  justify-content: center;
-}
-
-.css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
-  background: #31869d;
-  color: white !important;
-  border-radius: 4px;
-}
-
-.css-aym9vq-MuiButtonBase-root-MuiTab-root {
-  margin-left: 20px !important
-}
-
-.seperator {
-  border-top: 4px solid #31869d;
-    margin: 10px 0;
-    padding: 0;
-    height: 1px;
 
 }
 
-.content-body h2 {
-  background : none !important
-}
 
-.content-inner {
-  display: flex;
-}
-
-.content-inner ul {
-  margin: 20px
-}
-
-.content-inner li {
-  list-style: none;
-  margin-bottom: 10px;
-}
-
-.css-1aquho2-MuiTabs-indicator {
-  display: none !important;
-}
-
-.icons a {
-  color: none !important;
-  padding: 5px;
-  /* background-color: grey;
-  margin-left: 5px; */
-}
-
-a svg:hover {
-  scale: 1.2;
-  transition: .5s ease-in-out;
-  color: #31869d;
-}
-
-.contact-container {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 25px;
-  padding: 50px;
-}
-
-.contact-container h3 {
-  margin-bottom: 10px;
-  letter-spacing: 1.2px;
-  font-family: 'Cabinet Grotesk', sans-serif;     
-  font-size: 30px;
-}
-
-.contact-container h4 {
-  margin-bottom: 30px;
-  margin-top: 20px;
-}
-
-.text-wrap {
-  margin-bottom: 20px;
-  font-family: 'Satoshi', sans-serif;
-  font-weight: 500;
-}
-
-.text-wrap span {
-  font-weight: 700;
-}
-
-.form-wrapper {
-  border: 8px solid #f2f2f2;
-  padding: 15px;
-  font-family: 'Satoshi', sans-serif;
-  display: block;
-  margin: 0 auto;
-}
-.css-1nvn3ta-JoyTextarea-root {
-  width: 77ch;
-}
 
 
 

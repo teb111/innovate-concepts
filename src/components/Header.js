@@ -60,12 +60,7 @@ const Header = () => {
                 <Link to='/contact'>Contact</Link>
               </MDBNavbarItem>
 
-              <div
-                style={{
-                  marginLeft: '70px'
-                }}
-                className='icons'
-              >
+              <div className='icons'>
                 <Link to='#'>
                   {' '}
                   <Facebook sx={{ fontSize: 25 }} />
@@ -76,7 +71,7 @@ const Header = () => {
                   <YouTube sx={{ fontSize: 25 }} />
                 </Link>
 
-                <Link to='#'>
+                <Link to='https://www.instagram.com/innovateconceptsng/'>
                   {' '}
                   <Instagram sx={{ fontSize: 25 }} />
                 </Link>

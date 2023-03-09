@@ -33,19 +33,6 @@ const ProjectsScreen = () => {
             <div className='tab-grid-container'>
               <div className='container'>
                 <img
-                  src={proj1?.images[0]?.url}
-                  alt={proj1?.images[0]?.alt}
-                  className='image'
-                />
-                <div className='middle'>
-                  <span>{proj1?.heading}</span>
-                  <Link to='/project' state={{ from: proj1 }} className='text'>
-                    Quick View
-                  </Link>
-                </div>
-              </div>
-              <div className='container'>
-                <img
                   src={proj2?.images[0]?.url}
                   alt={proj2?.images[0]?.alt}
                   className='image'
@@ -59,7 +46,7 @@ const ProjectsScreen = () => {
               </div>
               <div className='container'>
                 <img
-                  src={proj3?.images[0]?.url}
+                  src={proj3?.images[2]?.url}
                   alt={proj3?.images[0]?.alt}
                   className='image'
                 />
@@ -177,10 +164,130 @@ const ProjectsScreen = () => {
             </div>
           </TabPanel>
           <TabPanel>
-            <h2>Any commercial</h2>
+            <div className='tab-grid-container'>
+              <div className='container'>
+                <img
+                  src={proj5?.images[0]?.url}
+                  alt={proj5?.images[0]?.alt}
+                  className='image'
+                />
+                <div className='middle'>
+                  <span>{proj5?.heading}</span>
+                  <Link to='/project' state={{ from: proj5 }} className='text'>
+                    Quick View
+                  </Link>
+                </div>
+              </div>
+              <div className='container'>
+                <img
+                  src={proj6?.images[0]?.url}
+                  alt={proj6?.images[0]?.alt}
+                  className='image'
+                />
+                <div className='middle'>
+                  <span>{proj6?.heading}</span>
+                  <Link to='/project' state={{ from: proj6 }} className='text'>
+                    Quick View
+                  </Link>
+                </div>
+              </div>
+
+              <div className='container'>
+                <img
+                  src={proj8?.images[0]?.url}
+                  alt={proj8?.images[0]?.alt}
+                  className='image'
+                />
+                <div className='middle'>
+                  <span>{proj8?.heading}</span>
+                  <Link to='/project' state={{ from: proj8 }} className='text'>
+                    Quick View
+                  </Link>
+                </div>
+              </div>
+            </div>
           </TabPanel>
           <TabPanel>
-            <h2>Any Hospitality</h2>
+            <div className='tab-grid-container'>
+              <div className='container'>
+                <img
+                  src={proj2?.images[0]?.url}
+                  alt={proj2?.images[0]?.alt}
+                  className='image'
+                />
+                <div className='middle'>
+                  <span>{proj2?.heading}</span>
+                  <Link to='/project' state={{ from: proj2 }} className='text'>
+                    Quick View
+                  </Link>
+                </div>
+              </div>
+              <div className='container'>
+                <img
+                  src={proj3?.images[2]?.url}
+                  alt={proj3?.images[0]?.alt}
+                  className='image'
+                />
+                <div className='middle'>
+                  <span>{proj3?.heading}</span>
+                  <Link to='/project' state={{ from: proj3 }} className='text'>
+                    Quick View
+                  </Link>
+                </div>
+              </div>
+              <div className='container'>
+                <img
+                  src={proj4?.images[0]?.url}
+                  alt={proj4?.images[0]?.alt}
+                  className='image'
+                />
+                <div className='middle'>
+                  <span>{proj4?.heading}</span>
+                  <Link to='/project' state={{ from: proj4 }} className='text'>
+                    Quick View
+                  </Link>
+                </div>
+              </div>
+              <div className='container'>
+                <img
+                  src={proj9?.images[0]?.url}
+                  alt={proj9?.images[0]?.alt}
+                  className='image'
+                />
+                <div className='middle'>
+                  <span>{proj9?.heading}</span>
+                  <Link to='/project' state={{ from: proj9 }} className='text'>
+                    Quick View
+                  </Link>
+                </div>
+              </div>
+              <div className='container'>
+                <img
+                  src={proj10?.images[0]?.url}
+                  alt={proj10?.images[0]?.alt}
+                  className='image'
+                />
+                <div className='middle'>
+                  <span>{proj10?.heading}</span>
+                  <Link to='/project' state={{ from: proj10 }} className='text'>
+                    Quick View
+                  </Link>
+                </div>
+              </div>
+              <div className='container'>
+                <img
+                  src={proj11?.images[0]?.url}
+                  alt={proj11?.images[0]?.alt}
+                  className='image'
+                />
+                <div className='middle'>
+                  <span>{proj11?.heading}</span>
+                  <Link to='/project' state={{ from: proj11 }} className='text'>
+                    Quick View
+                  </Link>
+                </div>
+              </div>
+            </div>
           </TabPanel>
         </Tabs>
       </div>

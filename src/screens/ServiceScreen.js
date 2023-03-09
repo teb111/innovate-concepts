@@ -57,11 +57,6 @@ const ServiceScreen = () => {
       >
         <Tab
           icon={<CheckOutlined sx={{ fontSize: 40 }} />}
-          label='Construction'
-          {...a11yProps(0)}
-        />
-        <Tab
-          icon={<CheckOutlined sx={{ fontSize: 40 }} />}
           label='Architecture'
         />
         <Tab
@@ -71,6 +66,11 @@ const ServiceScreen = () => {
         <Tab
           icon={<CheckOutlined sx={{ fontSize: 40 }} />}
           label='Project Management'
+        />
+        <Tab
+          icon={<CheckOutlined sx={{ fontSize: 40 }} />}
+          label='Construction'
+          {...a11yProps(0)}
         />
       </Tabs>
       <TabPanel value={value} index={0}>
@@ -140,43 +140,100 @@ const ServiceScreen = () => {
               <ul>
                 <li>
                   <ArrowRightIcon />
-                  Brief Formulation
+                  Power Distribution System Design
                 </li>
                 <li>
                   <ArrowRightIcon />
-                  Feasibility Studies
+                  Power Quality Testing & Monitoring
                 </li>
+                <li>
+                  <ArrowRightIcon />
+                  Systems Commissioning
+                </li>
+                <li>
+                  <ArrowRightIcon />
+                  Lighting Design
+                </li>
+              </ul>
+            </div>
+            <div className='content-list'>
+              <ul>
+                <li>
+                  <ArrowRightIcon />
+                  Plumbing (Water Supply System, Public Health, Rainwater
+                  Drainage and Suppression)
+                </li>
+                <li>
+                  <ArrowRightIcon />
+                  Borehole and Water Treatment Systems
+                </li>
+                <li>
+                  <ArrowRightIcon />
+                  Sewage Treatment Systems
+                </li>
+                <li>
+                  <ArrowRightIcon />
+                  Swimming Pools, Fountains & Water Display Features
+                </li>
+                <li>
+                  <ArrowRightIcon />
+                  HVAC design
+                </li>
+                <li>
+                  <ArrowRightIcon />
+                  Fire Protection & Suppression Systems
+                </li>
+                <li>
+                  <ArrowRightIcon />
+                  Escalator, Elevator & Travelator
+                </li>
+              </ul>
+            </div>
+            <div className='content-list'>
+              <ul>
                 <li>
                   <ArrowRightIcon />
                   Concept Design
                 </li>
+                <li>
+                  <ArrowRightIcon />
+                  Detailed Engineering Design(Concrete and Steel structures)
+                </li>
+                <li>
+                  <ArrowRightIcon />
+                  Construction supervision{' '}
+                </li>
+                <li>
+                  <ArrowRightIcon />
+                  Evaluation of structural integrity of defective buildings
+                </li>
+                <li>
+                  <ArrowRightIcon />
+                  Highway and drainage designs
+                </li>
               </ul>
             </div>
             <div className='content-list'>
               <ul>
                 <li>
                   <ArrowRightIcon />
-                  Preliminary Drawing
+                  Fire Detection and Alarm Systems
                 </li>
                 <li>
                   <ArrowRightIcon />
-                  Production Information
+                  Burglar Alarms
                 </li>
                 <li>
                   <ArrowRightIcon />
-                  Contract Administration and Supervision
-                </li>
-              </ul>
-            </div>
-            <div className='content-list'>
-              <ul>
-                <li>
-                  <ArrowRightIcon />
-                  Project Handover and Closeout
+                  CCTV
                 </li>
                 <li>
                   <ArrowRightIcon />
-                  Post Occupancy Evaluation
+                  Access Control
+                </li>
+                <li>
+                  <ArrowRightIcon />
+                  Voice & Data Systems
                 </li>
               </ul>
             </div>
@@ -186,7 +243,7 @@ const ServiceScreen = () => {
       <TabPanel value={value} index={2}>
         <div className='content-body'>
           <div>
-            <h2>Engineering</h2>
+            <h2>Project Management</h2>
             <div className='seperator'></div>
           </div>
 
@@ -195,11 +252,11 @@ const ServiceScreen = () => {
               <ul>
                 <li>
                   <ArrowRightIcon />
-                  Brief Formulation
+                  Project Feasibility & Inception
                 </li>
                 <li>
                   <ArrowRightIcon />
-                  Feasibility Studies
+                  Project Guidance & Pre-Contract
                 </li>
                 <li>
                   <ArrowRightIcon />
@@ -207,19 +264,21 @@ const ServiceScreen = () => {
                 </li>
               </ul>
             </div>
+
             <div className='content-list'>
               <ul>
                 <li>
                   <ArrowRightIcon />
-                  Preliminary Drawing
+                  Value Engineering & Analysis
                 </li>
                 <li>
                   <ArrowRightIcon />
-                  Production Information
+                  Cost Control & Content Analysis + Recommendations
                 </li>
                 <li>
                   <ArrowRightIcon />
-                  Contract Administration and Supervision
+                  Quality Control and Monitoring & Control of Construction
+                  Processes
                 </li>
               </ul>
             </div>
@@ -227,11 +286,11 @@ const ServiceScreen = () => {
               <ul>
                 <li>
                   <ArrowRightIcon />
-                  Project Handover and Closeout
+                  Content Framework
                 </li>
                 <li>
                   <ArrowRightIcon />
-                  Post Occupancy Evaluation
+                  HSE Awareness
                 </li>
               </ul>
             </div>

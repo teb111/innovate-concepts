@@ -32,37 +32,31 @@ const ContactScreen = () => {
 
           <h4>Lagos</h4>
           <p className='text-wrap'>
-            <p>CCP Place, Plot 17, Block 25, Chief Abiodun Yesufu Way Oniru,</p>
-            <p>Victoria Island, Lagos, Nigeria P.O.Box 52238, Falomo, Ikoyi,</p>
+            <p>33a Jay Jay Oladimeji Close,</p>
             <p> Lagos, Nigeria</p>
             <p>
-              <span>Phone </span>: +234- 9038001564
+              <span>Phone </span>: +234 818 582 8965
             </p>
             <p>
               {' '}
-              <span>Fax:</span> +234-1-2704223{' '}
-            </p>
-          </p>
-
-          <h4>Abuja</h4>
-          <p className='text-wrap'>
-            <p>CCP Place, Plot 17, Block 25, Chief Abiodun Yesufu Way Oniru,</p>
-            <p>Victoria Island, Lagos, Nigeria P.O.Box 52238, Falomo, Ikoyi,</p>
-            <p> Lagos, Nigeria</p>
-            <p>
-              <span>Phone </span>: +234- 9038001564
+              <span>Email:</span>{' '}
+              <a href='mailto:info@innovateconceptsltd.com'>
+                info@innovateconceptsltd.com
+              </a>
             </p>
             <p>
               {' '}
-              <span>Fax:</span> +234-1-2704223{' '}
+              <span>Email:</span>{' '}
+              <a href='mailto:innovatearchitects@yahoo.com'>
+                innovatearchitects@yahoo.com
+              </a>
             </p>
           </p>
         </div>
         <div className='map-email'>
           <iframe
             src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus'
-            width='900'
-            height='450'
+            className='map-frame'
             style={{ border: 0 }}
             allowfullscreen=''
             loading='lazy'
@@ -78,7 +72,7 @@ const ContactScreen = () => {
             <Box
               component='form'
               sx={{
-                '& .MuiTextField-root': { m: 1, width: '70ch' }
+                '& .MuiTextField-root': { m: 1, width: '100%' }
               }}
               noValidate
               autoComplete='off'
@@ -114,14 +108,15 @@ const ContactScreen = () => {
                   value={subject}
                   onChange={(e) => setSubject(e.target.value)}
                 />
+                <Textarea
+                  minRows={2}
+                  placeholder='Type Message…'
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                />
               </div>
             </Box>
-            <Textarea
-              minRows={3}
-              placeholder='Type Message…'
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            />
+
             <Button
               variant='contained'
               color='primary'

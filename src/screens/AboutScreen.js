@@ -7,7 +7,7 @@ const AboutScreen = () => {
       <Header />
       <div className='about-us-banner'>
         <div className='about-us'>
-          <div>
+          <div style={{ marginTop: '-60px' }}>
             <p>About us</p>
             <h3>
               We are leveraging technology to{' '}
@@ -16,7 +16,7 @@ const AboutScreen = () => {
             </h3>
           </div>
           <img
-            src='https://res.cloudinary.com/teb/image/upload/v1678194746/innovate-concepts/7_dqpmqk.jpg'
+            src='https://res.cloudinary.com/teb/image/upload/v1678200155/innovate-concepts/Wole%20Olanipekun/_TM24347_3_copy_mo5xmq.png'
             className='img'
             alt='work'
           />
