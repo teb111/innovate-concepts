@@ -25,8 +25,8 @@ const ProjectsScreen = () => {
         <Tabs>
           <TabList>
             <Tab>All</Tab>
-            <Tab>Resedential</Tab>
-            <Tab>Hospitality </Tab>
+            <Tab>Residential</Tab>
+            <Tab>Commercial </Tab>
           </TabList>
 
           <TabPanel>
