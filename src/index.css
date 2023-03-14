@@ -364,6 +364,7 @@ div.highway-slider ul.highway-lane li.highway-car {
 
 .mission {
   width: 50%;
+  height: 340px;
 }
 
 .vission span {
@@ -546,7 +547,9 @@ div.highway-slider ul.highway-lane li.highway-car {
 
 
 .css-heg063-MuiTabs-flexContainer {
-  justify-content: center;
+  justify-content: flex-start;
+  margin-left: 7px !important;
+  
 }
 
 .css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
@@ -652,6 +655,7 @@ a svg:hover {
   width: 100%;
   height: 400px;
 }
+
 
 
 

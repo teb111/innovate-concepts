@@ -12,7 +12,7 @@ const AboutScreen = () => {
             <h3>
               We are utilizing technology to{' '}
               <span className='animating-text'>create</span> solutions to
-              spatial and programmatic problems. supply
+              spatial and programmatic problems
             </h3>
           </div>
           <img

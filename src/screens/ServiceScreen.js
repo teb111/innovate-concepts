@@ -2,14 +2,8 @@ import React from 'react'
 import Header from '../components/Header'
 import Tabs from '@mui/material/Tabs'
 import Tab from '@mui/material/Tab'
-import PhoneIcon from '@mui/icons-material/Phone'
-import FavoriteIcon from '@mui/icons-material/Favorite'
-import PersonPinIcon from '@mui/icons-material/PersonPin'
-import {
-  ArrowForward,
-  ArrowForwardIos,
-  CheckOutlined
-} from '@mui/icons-material'
+
+import { CheckOutlined } from '@mui/icons-material'
 import Typography from '@mui/material/Typography'
 import Box from '@mui/material/Box'
 import ArrowRightIcon from '@mui/icons-material/ArrowRight'
@@ -53,11 +47,8 @@ const ServiceScreen = () => {
       <Tabs
         value={value}
         onChange={handleChange}
-        aria-label='icon label tabs example'
-        style={{
-          justifyContent: 'flex-start',
-          marginLeft: '5px'
-        }}
+        // aria-label='icon label tabs example'
+        className='tabs-style'
       >
         <Tab
           icon={<CheckOutlined sx={{ fontSize: 40 }} />}

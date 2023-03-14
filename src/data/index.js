@@ -331,11 +331,11 @@ export const proj5 = {
 }
 
 export const proj6 = {
-  heading: '2nd AVENUE RESIDENCE (',
+  heading: '2nd AVENUE RESIDENCE',
   textBox: [
     {
       title: 'Client',
-      Body: '2nd AVENUE RESIDENCE ('
+      Body: '2nd AVENUE RESIDENCE'
     },
     {
       title: 'Status',
@@ -536,6 +536,7 @@ export const proj10 = {
 
 export const proj11 = {
   heading: 'Wole Olanipekun & Co Head Office',
+
   textBox: [
     {
       title: 'Client',
