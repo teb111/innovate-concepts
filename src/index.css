@@ -553,9 +553,9 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 .css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
-  background: #31869d;
+  background: #31869d !important;
   color: white !important;
-  border-radius: 4px;
+  border-radius: 4px !important;
 }
 
 .css-aym9vq-MuiButtonBase-root-MuiTab-root {
