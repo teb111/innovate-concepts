@@ -353,12 +353,25 @@ div.highway-slider ul.highway-lane li.highway-car {
   max-width: 1000px;
   margin: 0 auto;
   margin-top: 70px;
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding-top: 56px;
+  padding-bottom: 56px;
   padding-left: 64px;
   padding-right: 64px;
   border-radius: 20px;
-  color: #fff
+  color: #fff;
+  font-family: 'Satoshi', sans-serif;
+}
+
+.mission {
+  width: 50%;
+}
+
+.vission span {
+  font-weight: BOLD;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-family: 'Satoshi', sans-serif;
 }
 
 .mission-vision h4 {

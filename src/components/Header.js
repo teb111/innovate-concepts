@@ -51,7 +51,7 @@ const Header = () => {
                 <Link to='/about'>About</Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <Link to='/projects'>Project</Link>
+                <Link to='/projects'>Projects</Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
                 <Link to='/services'>Services</Link>

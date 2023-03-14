@@ -9,15 +9,14 @@ const HomeScreen = () => {
       <div className='page-banner'>
         <div className='banner-header'>
           <p>
-            Procurement Platform for Food Businesses in{' '}
+            Leading Architecture and Design firm creating thriving spaces across{' '}
             <span className='animating-text'>Africa</span>
           </p>
         </div>
         <div className='banner-text'>
           <p>
-            From sourcing and delivery of food supplies to simplified business
-            operations, spend more time elevating the dining experience for your
-            customers.
+            At Innovate concepts ltd, we use data and dialogue to design places
+            that perform with functional, technical,and aesthetic excellence.
           </p>
         </div>
         <div className='banner-button'>

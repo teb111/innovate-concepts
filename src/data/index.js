@@ -1,9 +1,9 @@
 export const proj1 = {
-  heading: 'Chevrolet Auto Showroom',
+  heading: 'IBILE OIL AND GAS',
   textBox: [
     {
       title: 'Client',
-      Body: 'Koncept Autocenter Limited'
+      Body: 'IBILE OIL AND GAS'
     },
     {
       title: 'Status',
@@ -39,19 +39,19 @@ export const proj1 = {
 }
 
 export const proj2 = {
-  heading: 'IOGC',
+  heading: 'IBILE OIL AND GAS',
   textBox: [
     {
       title: 'Client',
-      Body: 'Koncept Autocenter Limited'
+      Body: 'IBILE OIL AND GAS'
     },
     {
       title: 'Status',
-      Body: 'Ongoing'
+      Body: 'Complteted'
     },
     {
       title: 'Location',
-      Body: 'Lekki, Lagos'
+      Body: 'Victoria Island, Lagos'
     }
   ],
   textBody1:
@@ -83,15 +83,15 @@ export const proj2 = {
 }
 
 export const proj3 = {
-  heading: '54 Gene',
+  heading: '54 GENE HEAD OFFICE',
   textBox: [
     {
       title: 'Client',
-      Body: 'Koncept Autocenter Limited'
+      Body: '54 GENE HEAD OFFICE'
     },
     {
       title: 'Status',
-      Body: 'Ongoing'
+      Body: 'Completed'
     },
     {
       title: 'Location',
@@ -211,15 +211,15 @@ export const proj3 = {
 }
 
 export const proj4 = {
-  heading: '7rl',
+  heading: '7 RIVER LAB',
   textBox: [
     {
       title: 'Client',
-      Body: 'Koncept Autocenter Limited'
+      Body: '7 RIVER LAB'
     },
     {
       title: 'Status',
-      Body: 'Ongoing'
+      Body: 'Completed'
     },
     {
       title: 'Location',
@@ -263,15 +263,15 @@ export const proj4 = {
 }
 
 export const proj5 = {
-  heading: 'Kobo',
+  heading: 'KOBO 360 HEAD OFFICE',
   textBox: [
     {
       title: 'Client',
-      Body: 'Koncept Autocenter Limited'
+      Body: 'KOBO 360 HEAD OFFICE'
     },
     {
       title: 'Status',
-      Body: 'Ongoing'
+      Body: 'Completed'
     },
     {
       title: 'Location',
@@ -331,11 +331,11 @@ export const proj5 = {
 }
 
 export const proj6 = {
-  heading: 'Ikoyi Residence',
+  heading: '2nd AVENUE RESIDENCE (',
   textBox: [
     {
       title: 'Client',
-      Body: 'Koncept Autocenter Limited'
+      Body: '2nd AVENUE RESIDENCE ('
     },
     {
       title: 'Status',
@@ -395,11 +395,11 @@ export const proj6 = {
 }
 
 export const proj7 = {
-  heading: 'Banana Island Residence',
+  heading: 'BANANA ISLAND Residence',
   textBox: [
     {
       title: 'Client',
-      Body: 'Koncept Autocenter Limited'
+      Body: 'BANANA ISLAND Residence'
     },
     {
       title: 'Status',
@@ -427,11 +427,11 @@ export const proj7 = {
 }
 
 export const proj8 = {
-  heading: 'Resturant',
+  heading: 'SAFI RESTAURANT',
   textBox: [
     {
       title: 'Client',
-      Body: 'Koncept Autocenter Limited'
+      Body: 'SAFI RESTAURANT'
     },
     {
       title: 'Status',
@@ -459,11 +459,11 @@ export const proj8 = {
 }
 
 export const proj9 = {
-  heading: 'Symmetric Units',
+  heading: 'SYMMETRY RESIDENCE',
   textBox: [
     {
       title: 'Client',
-      Body: 'Koncept Autocenter Limited'
+      Body: 'SYMMETRY RESIDENCE'
     },
     {
       title: 'Status',
@@ -495,11 +495,11 @@ export const proj9 = {
 }
 
 export const proj10 = {
-  heading: 'Viathan',
+  heading: 'VIATHAN ENGINEERING MARINA OFFICE',
   textBox: [
     {
       title: 'Client',
-      Body: 'Koncept Autocenter Limited'
+      Body: 'VIATHAN ENGINEERING MARINA OFFICE'
     },
     {
       title: 'Status',
@@ -535,11 +535,11 @@ export const proj10 = {
 }
 
 export const proj11 = {
-  heading: 'Wole Olaonipekun Office',
+  heading: 'Wole Olanipekun & Co Head Office',
   textBox: [
     {
       title: 'Client',
-      Body: 'Koncept Autocenter Limited'
+      Body: 'Wole Olanipekun & Co Head Office'
     },
     {
       title: 'Status',

@@ -54,6 +54,10 @@ const ServiceScreen = () => {
         value={value}
         onChange={handleChange}
         aria-label='icon label tabs example'
+        style={{
+          justifyContent: 'flex-start',
+          marginLeft: '5px'
+        }}
       >
         <Tab
           icon={<CheckOutlined sx={{ fontSize: 40 }} />}
