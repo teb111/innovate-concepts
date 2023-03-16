@@ -47,7 +47,7 @@ const AboutScreen = () => {
         <div className='our-story pt-5'>
           <h6 className=''>our team</h6>
           <p>
-            At Innovate Concept , each studio is led by responsive, experienced
+            At Innovate Concepts, each studio is led by responsive, experienced
             principals actively engaged in project work. They love what they do,
             and that kind of enthusiasm is contagious. On average, our
             principals have invested 15 years of their careers in the

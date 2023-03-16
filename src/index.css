@@ -401,11 +401,18 @@ div.highway-slider ul.highway-lane li.highway-car {
   padding: 20px;
 }
 
-.container {
+.container-2{
   position: relative;
   /* width: 50%; */
   max-width: 600px;
   width: 500px;
+}
+
+.container{
+  position: relative;
+  /* width: 50%; */
+  max-width: 300px;
+  width: 300px;
 }
 
 .image {

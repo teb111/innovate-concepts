@@ -32,10 +32,10 @@ const HomeScreen = () => {
           />
         </div>
         <div className='mt-4 slider'>
-          <p className='sponsor-text'>Trusted by 3000+ African Businesses</p>
+          <p className='sponsor-text'>Trusted by Top African Businesses</p>
           <section class='slide-option'>
             <div id='infinite' class='highway-slider'>
-              <div class='container highway-barrier'>
+              <div class='container-2 highway-barrier'>
                 <ul class='highway-lane'>
                   <li class='highway-car'>
                     <img
@@ -58,7 +58,8 @@ const HomeScreen = () => {
                   <li class='highway-car'>
                     <img
                       src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/wok_h86idi.png'
-                      width={100}
+                      width={150}
+                      height={200}
                     />
                   </li>
                   <li class='highway-car'>
@@ -107,7 +108,8 @@ const HomeScreen = () => {
                   <li class='highway-car'>
                     <img
                       src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/wok_h86idi.png'
-                      width={100}
+                      width={150}
+                      height={200}
                     />
                   </li>
                   <li class='highway-car'>
@@ -155,7 +157,8 @@ const HomeScreen = () => {
                   <li class='highway-car'>
                     <img
                       src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/wok_h86idi.png'
-                      width={100}
+                      width={150}
+                      height={200}
                     />
                   </li>
                   <li class='highway-car'>

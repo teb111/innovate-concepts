@@ -336,7 +336,7 @@ export const proj6 = {
     },
     {
       title: 'Status',
-      Body: 'Ongoing'
+      Body: 'Completed'
     },
     {
       title: 'Location',
@@ -397,7 +397,7 @@ export const proj7 = {
     },
     {
       title: 'Status',
-      Body: 'Ongoing'
+      Body: 'Completed'
     },
     {
       title: 'Location',
@@ -426,7 +426,7 @@ export const proj8 = {
     },
     {
       title: 'Status',
-      Body: 'Ongoing'
+      Body: 'Completed'
     },
     {
       title: 'Location',
@@ -455,7 +455,7 @@ export const proj9 = {
     },
     {
       title: 'Status',
-      Body: 'Ongoing'
+      Body: 'Completed'
     },
     {
       title: 'Location',
@@ -488,7 +488,7 @@ export const proj10 = {
     },
     {
       title: 'Status',
-      Body: 'Ongoing'
+      Body: 'Completed'
     },
     {
       title: 'Location',
@@ -526,7 +526,7 @@ export const proj11 = {
     },
     {
       title: 'Status',
-      Body: 'Ongoing'
+      Body: 'Completed'
     },
     {
       title: 'Location',
