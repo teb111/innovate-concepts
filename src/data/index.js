@@ -15,9 +15,9 @@ export const proj1 = {
     }
   ],
   textBody1:
-    'The Chevrolet automobile showroom is characterized by a simple geometry that combines clear glass with grey Aluminum composite panels.The building form encloses 310sqm of interior space designed to showcase premium brands of the America automobile giants. The architecture of its interior combines the luxury, openness and fluidity synonymous with the Chevrolet brand.',
+    'IBILE Oil and Gas Corporation (IOGC) is a wholly owned entity of Lagos State Government that provides up stream operations , down stream operations and gas commercialization operations.The design for IOGC office intends to impress on the users of the space the company’s brand. Cues from existing gas retail outlets are imported and used as space design elements. We also infused boldness and energy into the space, using the brand’s yellow colour and subtle nudges to the pentagon shape of IOGC’s logo',
   textBody2:
-    'The interior and exterior ambient lighting enhances the building’s transparency beyond day time, leveraging on and also complimenting the bustling night life of it surroundings.',
+    'The work space utilizes an open floor plan to foster collaboration and communication, while utilising break away spaces such as phone booths and meeting pods.',
   images: [
     {
       url: 'https://res.cloudinary.com/teb/image/upload/v1677657183/img4_u4m2xd.jpg',
@@ -55,9 +55,9 @@ export const proj2 = {
     }
   ],
   textBody1:
-    'The Chevrolet automobile showroom is characterized by a simple geometry that combines clear glass with grey Aluminum composite panels.The building form encloses 310sqm of interior space designed to showcase premium brands of the America automobile giants. The architecture of its interior combines the luxury, openness and fluidity synonymous with the Chevrolet brand.',
+    'IBILE Oil and Gas Corporation (IOGC) is a wholly owned entity of Lagos State Government that provides up stream operations , down stream operations and gas commercialization operations.The design for IOGC office intends to impress on the users of the space the company’s brand. Cues from existing gas retail outlets are imported and used as space design elements. We also infused boldness and energy into the space, using the brand’s yellow colour and subtle nudges to the pentagon shape of IOGC’s logo',
   textBody2:
-    'The interior and exterior ambient lighting enhances the building’s transparency beyond day time, leveraging on and also complimenting the bustling night life of it surroundings.',
+    'The work space utilizes an open floor plan to foster collaboration and communication, while utilising break away spaces such as phone booths and meeting pods.',
   images: [
     {
       url: 'https://res.cloudinary.com/teb/image/upload/v1678197848/innovate-concepts/IOGC/Innovate_Concepts_IOGC_03b_gxv6hb.jpg',
@@ -99,9 +99,8 @@ export const proj3 = {
     }
   ],
   textBody1:
-    'The Chevrolet automobile showroom is characterized by a simple geometry that combines clear glass with grey Aluminum composite panels.The building form encloses 310sqm of interior space designed to showcase premium brands of the America automobile giants. The architecture of its interior combines the luxury, openness and fluidity synonymous with the Chevrolet brand.',
-  textBody2:
-    'The interior and exterior ambient lighting enhances the building’s transparency beyond day time, leveraging on and also complimenting the bustling night life of it surroundings.',
+    'We recently completed the global headquarters for a health technology company centred on advancing the field of African genomics . Our design centered on highlighting company brand and drawing inspiration from medical vernacular and techniques such as the Sanger DNA sequencing.',
+
   images: [
     {
       url: 'https://res.cloudinary.com/teb/image/upload/v1678196164/innovate-concepts/54_gene/Innovate_Concepts_Ltd_54_Gene_Office_19_q8ylvs.jpg',
@@ -227,9 +226,8 @@ export const proj4 = {
     }
   ],
   textBody1:
-    'The Chevrolet automobile showroom is characterized by a simple geometry that combines clear glass with grey Aluminum composite panels.The building form encloses 310sqm of interior space designed to showcase premium brands of the America automobile giants. The architecture of its interior combines the luxury, openness and fluidity synonymous with the Chevrolet brand.',
-  textBody2:
-    'The interior and exterior ambient lighting enhances the building’s transparency beyond day time, leveraging on and also complimenting the bustling night life of it surroundings.',
+    'Our Design concept on this Diagnostics center was inspired by colours , textures and shapes of the Seven rivers in Africa, keeping in line with the 7RL brand . This centre includes sample collection rooms, telemedicine rooms, playrooms , training centre and VIP waiting rooms.',
+
   images: [
     {
       url: 'https://res.cloudinary.com/teb/image/upload/v1678194759/innovate-concepts/8_liynec.jpg',
@@ -279,9 +277,8 @@ export const proj5 = {
     }
   ],
   textBody1:
-    'The Chevrolet automobile showroom is characterized by a simple geometry that combines clear glass with grey Aluminum composite panels.The building form encloses 310sqm of interior space designed to showcase premium brands of the America automobile giants. The architecture of its interior combines the luxury, openness and fluidity synonymous with the Chevrolet brand.',
-  textBody2:
-    'The interior and exterior ambient lighting enhances the building’s transparency beyond day time, leveraging on and also complimenting the bustling night life of it surroundings.',
+    "Office space construction completed in 2020 for Kobo360 a trucking logistics company in Lagos, Nigeria. The designs borrow the language of the expressways/ roads the company's truck drive on and utilizes them as inspiration for the design of the spine that connects the different functional spaces on the floor. Elements like traffic signs and road demarcations are cleverly infused into the space.",
+
   images: [
     {
       url: 'https://res.cloudinary.com/teb/image/upload/v1678198079/innovate-concepts/Kobo/360_Office_Interior_03_copy_euwwba.jpg',
@@ -346,10 +343,7 @@ export const proj6 = {
       Body: 'Lekki, Lagos'
     }
   ],
-  textBody1:
-    'The Chevrolet automobile showroom is characterized by a simple geometry that combines clear glass with grey Aluminum composite panels.The building form encloses 310sqm of interior space designed to showcase premium brands of the America automobile giants. The architecture of its interior combines the luxury, openness and fluidity synonymous with the Chevrolet brand.',
-  textBody2:
-    'The interior and exterior ambient lighting enhances the building’s transparency beyond day time, leveraging on and also complimenting the bustling night life of it surroundings.',
+
   images: [
     {
       url: 'https://res.cloudinary.com/teb/image/upload/v1678198670/innovate-concepts/second_avenue/Innovate_Concepts_Ikoyi_Residence_01_olcxlo.jpg',
@@ -410,10 +404,7 @@ export const proj7 = {
       Body: 'Lekki, Lagos'
     }
   ],
-  textBody1:
-    'The Chevrolet automobile showroom is characterized by a simple geometry that combines clear glass with grey Aluminum composite panels.The building form encloses 310sqm of interior space designed to showcase premium brands of the America automobile giants. The architecture of its interior combines the luxury, openness and fluidity synonymous with the Chevrolet brand.',
-  textBody2:
-    'The interior and exterior ambient lighting enhances the building’s transparency beyond day time, leveraging on and also complimenting the bustling night life of it surroundings.',
+
   images: [
     {
       url: 'https://res.cloudinary.com/teb/image/upload/v1678199313/innovate-concepts/banana_island/fy_11_-_Photo_x5jxl3.jpg',
@@ -442,10 +433,7 @@ export const proj8 = {
       Body: 'Lekki, Lagos'
     }
   ],
-  textBody1:
-    'The Chevrolet automobile showroom is characterized by a simple geometry that combines clear glass with grey Aluminum composite panels.The building form encloses 310sqm of interior space designed to showcase premium brands of the America automobile giants. The architecture of its interior combines the luxury, openness and fluidity synonymous with the Chevrolet brand.',
-  textBody2:
-    'The interior and exterior ambient lighting enhances the building’s transparency beyond day time, leveraging on and also complimenting the bustling night life of it surroundings.',
+
   images: [
     {
       url: 'https://res.cloudinary.com/teb/image/upload/v1678199603/innovate-concepts/Resturant/Restaurant_copy_nexwz8.jpg',
@@ -474,10 +462,7 @@ export const proj9 = {
       Body: 'Lekki, Lagos'
     }
   ],
-  textBody1:
-    'The Chevrolet automobile showroom is characterized by a simple geometry that combines clear glass with grey Aluminum composite panels.The building form encloses 310sqm of interior space designed to showcase premium brands of the America automobile giants. The architecture of its interior combines the luxury, openness and fluidity synonymous with the Chevrolet brand.',
-  textBody2:
-    'The interior and exterior ambient lighting enhances the building’s transparency beyond day time, leveraging on and also complimenting the bustling night life of it surroundings.',
+  textBody1: `"Symmetry and balance is not something you find it's something you create".This quote was the inspiration for the  2 unit semi detached development by Innovate concepts. This property  is located in the heart of Ikoyi, Lagos. Each unit has 3 bedrooms and two living spaces with four parking spaces per unit. This development has 3 floors and boast of great use of daylight and cross ventilation.  `,
   images: [
     {
       url: 'https://res.cloudinary.com/teb/image/upload/v1678199856/innovate-concepts/symmetric_units/Innovate_Concepts_Ltd_Ikoyi_Residence_16_rqdgxo.jpg',
@@ -510,10 +495,7 @@ export const proj10 = {
       Body: 'Lekki, Lagos'
     }
   ],
-  textBody1:
-    'The Chevrolet automobile showroom is characterized by a simple geometry that combines clear glass with grey Aluminum composite panels.The building form encloses 310sqm of interior space designed to showcase premium brands of the America automobile giants. The architecture of its interior combines the luxury, openness and fluidity synonymous with the Chevrolet brand.',
-  textBody2:
-    'The interior and exterior ambient lighting enhances the building’s transparency beyond day time, leveraging on and also complimenting the bustling night life of it surroundings.',
+
   images: [
     {
       url: 'https://res.cloudinary.com/teb/image/upload/v1678199977/innovate-concepts/viathan/Yinka_Dayo-Adepoju_IPP_Marina_Office_14_jydqes.jpg',
@@ -551,10 +533,7 @@ export const proj11 = {
       Body: 'Lekki, Lagos'
     }
   ],
-  textBody1:
-    'The Chevrolet automobile showroom is characterized by a simple geometry that combines clear glass with grey Aluminum composite panels.The building form encloses 310sqm of interior space designed to showcase premium brands of the America automobile giants. The architecture of its interior combines the luxury, openness and fluidity synonymous with the Chevrolet brand.',
-  textBody2:
-    'The interior and exterior ambient lighting enhances the building’s transparency beyond day time, leveraging on and also complimenting the bustling night life of it surroundings.',
+
   images: [
     {
       url: 'https://res.cloudinary.com/teb/image/upload/v1678200160/innovate-concepts/Wole%20Olanipekun/project_photo_copy_gvlb9k.png',

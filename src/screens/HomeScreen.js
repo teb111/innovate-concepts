@@ -38,77 +38,149 @@ const HomeScreen = () => {
               <div class='container highway-barrier'>
                 <ul class='highway-lane'>
                   <li class='highway-car'>
-                    <span class='fab fa-angular'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939348/innovate-concepts/ba3af36b96323f4958d1b1cc6727ebb543a6f301_d0iikb.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-js'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939347/innovate-concepts/7rl_uweren.jpg'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-node'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939348/innovate-concepts/54GENE-6_jjqedi.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-html5'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/wok_h86idi.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-less'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/qshop_jmdwgw.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-gulp'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/nessco_mrixke.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-stack-overflow'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/viathan_nwlmtb.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-codepen'></span>
-                  </li>
-                  <li class='highway-car'>
-                    <span class='fab fa-aws'></span>
-                  </li>
-                  <li class='highway-car'>
-                    <span class='fab fa-gitlab'></span>
-                  </li>
-                  <li class='highway-car'>
-                    <span class='fab fa-chrome'></span>
-                  </li>
-                  <li class='highway-car'>
-                    <span class='fab fa-google'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/ibile_qrbuel.jpg'
+                      width={100}
+                    />
                   </li>
 
                   <li class='highway-car'>
-                    <span class='fab fa-angular'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939348/innovate-concepts/ba3af36b96323f4958d1b1cc6727ebb543a6f301_d0iikb.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-js'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939347/innovate-concepts/7rl_uweren.jpg'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-node'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939348/innovate-concepts/54GENE-6_jjqedi.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-html5'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/wok_h86idi.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-less'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/qshop_jmdwgw.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-gulp'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/nessco_mrixke.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-stack-overflow'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/viathan_nwlmtb.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-codepen'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/ibile_qrbuel.jpg'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-aws'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939348/innovate-concepts/ba3af36b96323f4958d1b1cc6727ebb543a6f301_d0iikb.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-gitlab'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939347/innovate-concepts/7rl_uweren.jpg'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-chrome'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939348/innovate-concepts/54GENE-6_jjqedi.png'
+                      width={100}
+                    />
                   </li>
                   <li class='highway-car'>
-                    <span class='fab fa-google'></span>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/wok_h86idi.png'
+                      width={100}
+                    />
+                  </li>
+                  <li class='highway-car'>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/qshop_jmdwgw.png'
+                      width={100}
+                    />
+                  </li>
+                  <li class='highway-car'>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/nessco_mrixke.png'
+                      width={100}
+                    />
+                  </li>
+                  <li class='highway-car'>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/viathan_nwlmtb.png'
+                      width={100}
+                    />
+                  </li>
+                  <li class='highway-car'>
+                    <img
+                      src='https://res.cloudinary.com/teb/image/upload/v1678939349/innovate-concepts/ibile_qrbuel.jpg'
+                      width={100}
+                    />
                   </li>
                 </ul>
               </div>

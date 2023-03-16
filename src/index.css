@@ -404,8 +404,8 @@ div.highway-slider ul.highway-lane li.highway-car {
 .container {
   position: relative;
   /* width: 50%; */
-  max-width: 300px;
-  width: 300px;
+  max-width: 600px;
+  width: 500px;
 }
 
 .image {
