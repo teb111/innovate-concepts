@@ -19,11 +19,7 @@ const HomeScreen = () => {
             that perform with functional, technical,and aesthetic excellence.
           </p>
         </div>
-        <div className='banner-button'>
-          <MDBBtn className='btn' rounded>
-            Get Started
-          </MDBBtn>
-        </div>
+
         <div className='mt-4'>
           <img
             src='https://res.cloudinary.com/teb/image/upload/v1678200155/innovate-concepts/Wole%20Olanipekun/_TM24347_3_copy_mo5xmq.png'
