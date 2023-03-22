@@ -263,19 +263,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className='container'>
-                <img
-                  src={proj7?.images[0]?.url}
-                  alt={proj7?.images[0]?.alt}
-                  className='image'
-                />
-                <div className='middle'>
-                  <span>{proj7?.heading}</span>
-                  <Link to='/project' state={{ from: proj7 }} className='text'>
-                    Quick View
-                  </Link>
-                </div>
-              </div>
+
               <div className='container'>
                 <img
                   src={proj10?.images[0]?.url}
