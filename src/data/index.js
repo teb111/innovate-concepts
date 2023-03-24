@@ -557,3 +557,269 @@ export const proj11 = {
     }
   ]
 }
+
+export const proj13 = {
+  heading: 'Assisted Living Center',
+
+  textBox: [
+    {
+      title: 'Client',
+      Body: 'Assisted Living Center'
+    },
+    {
+      title: 'Status',
+      Body: 'Completed'
+    },
+    {
+      title: 'Location',
+      Body: 'Lekki, Lagos'
+    }
+  ],
+
+  images: [
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628058/innovate-concepts/Assisted%20living%20Centre/Main_picture_q0zmnv.jpg',
+      alt: 'Image one'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628062/innovate-concepts/Assisted%20living%20Centre/aaa_10_-_Photo_ya9j5b.jpg',
+      alt: 'Image Two'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628065/innovate-concepts/Assisted%20living%20Centre/Assisted_living_2_page-0008_ky5qga.jpg',
+      alt: 'Image Three'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628068/innovate-concepts/Assisted%20living%20Centre/c_7_-_Photo_c5wywc.jpg',
+      alt: 'Image Four'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628072/innovate-concepts/Assisted%20living%20Centre/ee_10_-_Photo_fqyvio.jpg',
+      alt: 'Image Five'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628072/innovate-concepts/Assisted%20living%20Centre/c_8_-_Photo_rypoze.jpg',
+      alt: 'Image Six'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628082/innovate-concepts/Assisted%20living%20Centre/ee_9_-_Photo_aiw1an.jpg',
+      alt: 'Image Seven'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628087/innovate-concepts/Assisted%20living%20Centre/Assisted_living_2-10_ggd3qx.jpg',
+      alt: 'Image Eight'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628136/innovate-concepts/Assisted%20living%20Centre/aaa_9_-_Photo_jtraiq.jpg',
+      alt: 'Image Nine'
+    }
+  ]
+}
+
+export const proj12 = {
+  heading: 'Commercial development victoria island ',
+
+  textBox: [
+    {
+      title: 'Client',
+      Body: 'Commercial development victoria island'
+    },
+    {
+      title: 'Status',
+      Body: 'Completed'
+    },
+    {
+      title: 'Location',
+      Body: 'Victoria Island, Lagos'
+    }
+  ],
+
+  images: [
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628065/innovate-concepts/Commercial%20development%20victoria%20island/Main_picture_vjljey.jpg',
+      alt: 'Image one'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628078/innovate-concepts/Commercial%20development%20victoria%20island/2_mlehmh.jpg',
+      alt: 'Image Two'
+    }
+  ]
+}
+
+export const proj14 = {
+  heading: 'Construction for Horizon',
+
+  textBox: [
+    {
+      title: 'Client',
+      Body: 'Construction for Horizon'
+    },
+    {
+      title: 'Status',
+      Body: 'Completed'
+    },
+    {
+      title: 'Location',
+      Body: 'Victoria Island, Lagos'
+    }
+  ],
+
+  images: [
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628067/innovate-concepts/Construction%20for%20Horizon/Main_picture_knqnuc.png',
+      alt: 'Image one'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628065/innovate-concepts/Construction%20for%20Horizon/lekki_garden_llrort.png',
+      alt: 'Image Two'
+    }
+  ]
+}
+
+export const proj15 = {
+  heading: 'Ikoyi crescent Residence',
+
+  textBox: [
+    {
+      title: 'Client',
+      Body: 'Ikoyi crescent Residence'
+    },
+    {
+      title: 'Status',
+      Body: 'Completed'
+    },
+    {
+      title: 'Location',
+      Body: 'Victoria Island, Lagos'
+    }
+  ],
+
+  images: [
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628094/innovate-concepts/Ikoyi%20crescent%20Residence/Main_picture_fdlpe0.png',
+      alt: 'Image one'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628075/innovate-concepts/Ikoyi%20crescent%20Residence/fadeyi_residence_eaeja7.png',
+      alt: 'Image Two'
+    }
+  ]
+}
+
+export const proj16 = {
+  heading: 'Lekki Apartments',
+
+  textBox: [
+    {
+      title: 'Client',
+      Body: 'Lekki Apartments'
+    },
+    {
+      title: 'Status',
+      Body: 'Completed'
+    },
+    {
+      title: 'Location',
+      Body: 'Victoria Island, Lagos'
+    }
+  ],
+
+  images: [
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628077/innovate-concepts/Lekki%20Apartments/Main_picture_mqy4xu.jpg',
+      alt: 'Image one'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628083/innovate-concepts/Lekki%20Apartments/a_3_-_Photo_dap4gd.jpg',
+      alt: 'Image Two'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628074/innovate-concepts/Lekki%20Apartments/b_2_-_Photo_yt9aip.jpg',
+      alt: 'Image Three'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628076/innovate-concepts/Lekki%20Apartments/c_5_-_Photo_4_bj9ie6.jpg',
+      alt: 'Image Four'
+    }
+  ]
+}
+
+export const proj17 = {
+  heading: 'Okotie eboh Residence',
+
+  textBox: [
+    {
+      title: 'Client',
+      Body: 'Okotie eboh Residence'
+    },
+    {
+      title: 'Status',
+      Body: 'Completed'
+    },
+    {
+      title: 'Location',
+      Body: 'Victoria Island, Lagos'
+    }
+  ],
+
+  images: [
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628080/innovate-concepts/Okotie%20eboh%20Residence/Main_picture_qmiyu2.png',
+      alt: 'Image one'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628085/innovate-concepts/Okotie%20eboh%20Residence/okotie_eboh_3_xjzyje.png',
+      alt: 'Image Two'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628104/innovate-concepts/Okotie%20eboh%20Residence/okotie_eboh_residence_2_mi6mkv.png',
+      alt: 'Image Three'
+    }
+  ]
+}
+
+export const proj18 = {
+  heading: 'Osborne phase 2 Residence',
+
+  textBox: [
+    {
+      title: 'Client',
+      Body: 'Osborne phase 2 Residence'
+    },
+    {
+      title: 'Status',
+      Body: 'Completed'
+    },
+    {
+      title: 'Location',
+      Body: 'Victoria Island, Lagos'
+    }
+  ],
+
+  images: [
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628092/innovate-concepts/Osborne%20phase%202%20Residence/Main_picture_bbnnjc.png',
+      alt: 'Image one'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628087/innovate-concepts/Osborne%20phase%202%20Residence/osborne_2_z9e2ag.png',
+      alt: 'Image Two'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628100/innovate-concepts/Osborne%20phase%202%20Residence/20140213_115523_hrplfz.jpg',
+      alt: 'Image Three'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628102/innovate-concepts/Osborne%20phase%202%20Residence/20140213_115541_xxe9w4.jpg',
+      alt: 'Image Four'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628102/innovate-concepts/Osborne%20phase%202%20Residence/20140213_115450_wpn65p.jpg',
+      alt: 'Image Five'
+    },
+    {
+      url: 'https://res.cloudinary.com/teb/image/upload/v1679628117/innovate-concepts/Osborne%20phase%202%20Residence/20140213_120851_dbcqnk.jpg',
+      alt: 'Image six'
+    }
+  ]
+}
