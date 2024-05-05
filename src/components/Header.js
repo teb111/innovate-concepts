@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import {
   MDBContainer,
   MDBNavbar,
@@ -8,77 +8,77 @@ import {
   MDBNavbarNav,
   MDBNavbarItem,
   MDBNavbarLink,
-  MDBCollapse
-} from 'mdb-react-ui-kit'
-import { Link } from 'react-router-dom'
-import { Facebook, Instagram, LinkedIn, YouTube } from '@mui/icons-material'
+  MDBCollapse,
+} from "mdb-react-ui-kit";
+import { Link } from "react-router-dom";
+import { Facebook, Instagram, LinkedIn, YouTube } from "@mui/icons-material";
 const Header = () => {
-  const [showBasic, setShowBasic] = useState(false)
+  const [showBasic, setShowBasic] = useState(false);
   return (
     <>
       <MDBNavbar
-        expand='lg'
+        expand="lg"
         style={{
-          paddingBottom: '11px',
-          paddingTop: '10px'
+          paddingBottom: "11px",
+          paddingTop: "10px",
         }}
       >
         <MDBContainer fluid>
-          <MDBNavbarBrand href='#'>
+          <MDBNavbarBrand href="#">
             <img
-              src='https://res.cloudinary.com/teb/image/upload/v1677657516/IMG_2199_fbwgna.png'
-              alt='logo'
+              src="https://res.cloudinary.com/teb/image/upload/v1677657516/IMG_2199_fbwgna.png"
+              alt="logo"
               width={300}
               // height={100}
             />
           </MDBNavbarBrand>
 
           <MDBNavbarToggler
-            aria-controls='navbarSupportedContent'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
             onClick={() => setShowBasic(!showBasic)}
           >
-            <MDBIcon icon='bars' fas />
+            <MDBIcon icon="bars" fas />
           </MDBNavbarToggler>
 
           <MDBCollapse navbar show={showBasic}>
-            <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
+            <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
               <MDBNavbarItem>
-                <Link to='/'>Home</Link>
+                <Link to="/">Home</Link>
+              </MDBNavbarItem>
+              {/* <MDBNavbarItem>
+                <Link to="#about">About</Link>
+              </MDBNavbarItem> */}
+              <MDBNavbarItem>
+                <Link to="/projects">Projects</Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <Link to='/about'>About</Link>
+                <Link to="/services">Services</Link>
               </MDBNavbarItem>
               <MDBNavbarItem>
-                <Link to='/projects'>Projects</Link>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <Link to='/services'>Services</Link>
-              </MDBNavbarItem>
-              <MDBNavbarItem>
-                <Link to='/contact'>Contact</Link>
+                <Link to="/contact">Contact</Link>
               </MDBNavbarItem>
 
-              <div className='icons'>
-                <Link to='#'>
-                  {' '}
-                  <Facebook sx={{ fontSize: 25 }} />
+              <div className="icons">
+                <Link to="#">
+                  {" "}
+                  <Facebook sx={{ fontSize: 20 }} />
                 </Link>
 
-                <Link to='#'>
-                  {' '}
-                  <YouTube sx={{ fontSize: 25 }} />
+                <Link to="#">
+                  {" "}
+                  <YouTube sx={{ fontSize: 20 }} />
                 </Link>
 
-                <Link to='https://www.instagram.com/innovateconceptsng/'>
-                  {' '}
-                  <Instagram sx={{ fontSize: 25 }} />
+                <Link to="https://www.instagram.com/innovateconceptsng/">
+                  {" "}
+                  <Instagram sx={{ fontSize: 20 }} />
                 </Link>
 
-                <Link to='#'>
-                  {' '}
-                  <LinkedIn sx={{ fontSize: 25 }} />
+                <Link to="#">
+                  {" "}
+                  <LinkedIn sx={{ fontSize: 20 }} />
                 </Link>
               </div>
 
@@ -111,7 +111,7 @@ const Header = () => {
         </MDBContainer>
       </MDBNavbar>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

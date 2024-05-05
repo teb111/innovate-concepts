@@ -1,5 +1,5 @@
- @import url('https://fonts.cdnfonts.com/css/cabinet-grotesk');
- @import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url("https://fonts.cdnfonts.com/css/cabinet-grotesk");
+@import url("https://fonts.cdnfonts.com/css/satoshi");
 
 :root {
   --tw-bg-opacity: 1;
@@ -8,11 +8,10 @@
 
 body {
   margin: 0;
-  font-family: 'Cabinet Grotesk', sans-serif;                                            
+  font-family: "Cabinet Grotesk", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #ffffff !important;
-
 }
 
 nav {
@@ -29,8 +28,13 @@ ul li {
   margin-left: 40px;
   letter-spacing: 1.2px;
   font-size: 16px;
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   color: #31869d;
+}
+.page-container {
+  max-width: 1300px;
+  margin: 10px auto;
+  padding: 30px;
 }
 .img2 {
   width: 100px;
@@ -38,7 +42,7 @@ ul li {
   margin-left: 30px;
 }
 a {
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   color: #31869d !important;
   font-size: 17px;
   font-weight: 400;
@@ -57,17 +61,15 @@ a {
 }
 
 .banner-header p {
-  font-size: 4.5rem;
+  font-size: 3.3rem;
   font-weight: 800;
   line-height: 1;
-  max-width: 933px;
+  /* max-width: 933px; */
   text-align: center;
   color: #101828;
-  margin: 0px 0px 24px;
-
+  margin: 0px 0px 20px;
+  text-align: center;
 }
-
-
 
 .banner-text p {
   font-size: 1.25rem;
@@ -82,28 +84,28 @@ a {
 
 .banner-buttons {
   /*   background: black; */
-   /* background: black; */
-   color: #ffffff;
-   letter-spacing: 1.6px;
-   font-size: 15px;
-   text-transform: uppercase;
-   font-weight: bold;
-   display: block;
-   padding: 5px 40px;
-   border-radius: 9px;
-   box-shadow: none;
-   background-color: none;
-   cursor: pointer;
-   text-decoration: none;
-   border: 1px solid  #31869d;
-   background: transparent;
-   background-position: 100% 0px;
-   background-size: 200% 100%;
-   transition: 0.7s ease-in-out;
-   margin-bottom: 10px;
-   height: 35px;
-   margin-top: 33px;
-   background: #31869d;
+  /* background: black; */
+  color: #ffffff;
+  letter-spacing: 1.6px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  padding: 5px 40px;
+  border-radius: 9px;
+  box-shadow: none;
+  background-color: none;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid #31869d;
+  background: transparent;
+  background-position: 100% 0px;
+  background-size: 200% 100%;
+  transition: 0.7s ease-in-out;
+  margin-bottom: 10px;
+  height: 35px;
+  margin-top: 33px;
+  background: #31869d;
 }
 .button p {
   text-decoration: none;
@@ -116,12 +118,18 @@ a {
   font-size: 14px !important;
   letter-spacing: 1.2px;
   background: #31869d !important;
-
 }
 
 .animating-text {
   animation: gradient-text 10s linear infinite reverse;
-  background-image: linear-gradient(90deg,#31869d,#14bf93,#14a8a6,#149ab0,#1467d8);
+  background-image: linear-gradient(
+    90deg,
+    #31869d,
+    #14bf93,
+    #14a8a6,
+    #149ab0,
+    #1467d8
+  );
   background-size: 400%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -131,39 +139,38 @@ a {
 .img {
   object-fit: contain;
   border-radius: 12px;
-  max-width: 100% !important;
-  height: 467px !important;
-  max-width: 768px !important;
+  /* height: 467px !important; */
+  /* max-width: 100% !important; */
+  max-width: 950px !important;
 }
 
 .slider {
   overflow-x: auto;
-    /* background-color: rgb(243 248 255/1); */
-    padding: 20px;
-    width: 100vw;
+  /* background-color: rgb(243 248 255/1); */
+  padding: 20px;
+  width: 100vw;
 }
 
-
 .animate-marquee-left {
-    animation: moveSlideshow 10s linear infinite;
-    opacity: 1;
-    transition: opacity 0.5s ease-out;
-    background-position: 0 -100px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    transform: translate3d(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
+  animation: moveSlideshow 10s linear infinite;
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 -100px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 @keyframes moveSlideshow {
-  100% { 
-    transform: translateX(-66.6666%);  
+  100% {
+    transform: translateX(-66.6666%);
   }
 }
 
@@ -177,34 +184,36 @@ a {
 }
 
 section {
-	display:flex;
-	flex-flow:column;
-	align-items:center;
-
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 section div .container {
-  transition:all .3s ease;
-
-
+  transition: all 0.3s ease;
 }
 
-.container   h1 { margin:15px 0 0 0; }
+.container h1 {
+  margin: 15px 0 0 0;
+}
 
-.container   h3 { margin:0 0 25px 0; }
+.container h3 {
+  margin: 0 0 25px 0;
+}
 
-@media (max-width:992px) { 
-  section{
-    padding:0 20px 0 20px;
+@media (max-width: 992px) {
+  section {
+    padding: 0 20px 0 20px;
   }
-
- }
+}
 
 /* section .slide-option {
 	margin:0 0 50px 0;
 
 } */
 
-.no-marg { margin:0 0 0 0; }
+.no-marg {
+  margin: 0 0 0 0;
+}
 
 section.slide-option {
   margin: 0 0 50px 0;
@@ -237,10 +246,10 @@ div.highway-slider ul.highway-lane li.highway-car {
 @keyframes translatestf {
   0% {
     transform: translateX(100%);
- }
+  }
   100% {
     transform: translateX(-500%);
- }
+  }
 }
 #stffull div.highway-barrier ul.highway-lane {
   width: 500%;
@@ -254,13 +263,14 @@ div.highway-slider ul.highway-lane li.highway-car {
 @keyframes translateinfinite {
   100% {
     transform: translateX(calc(-2160px));
- }
+  }
 }
 #infinite div.highway-barrier {
   /* background: #fff; */
   /* box-shadow: 0 3px 10px -3px rgba(0,0,0,0.3); */
 }
-#infinite div.highway-barrier::before, #infinite div.highway-barrier::after {
+#infinite div.highway-barrier::before,
+#infinite div.highway-barrier::after {
   content: " ";
   position: absolute;
   z-index: 9;
@@ -289,10 +299,8 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 .about-us-banner {
- padding: 12px 10px 0px;
-
+  padding: 12px 10px 0px;
 }
-
 
 .about-us {
   display: flex;
@@ -300,44 +308,43 @@ div.highway-slider ul.highway-lane li.highway-car {
   align-items: center;
   /* max-width: 800px; */
   /* margin: 0 auto; */
-  margin-top: 50px; 
+  margin-top: 50px;
 }
 
 .about-us p {
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 1px;
- 
 }
-
 
 .about-us h3 {
   line-height: 5.625rem;
   font-size: 4.5rem;
   max-width: 36.8125rem;
   --tw-text-opacity: 1;
-  color: rgb(16 24 40/var(--tw-text-opacity));
+  color: rgb(16 24 40 / var(--tw-text-opacity));
   font-family: CabinetGrotesk;
   font-weight: 800;
   margin-left: 20px;
 }
 
 .our-story {
-  max-width: 700px;
+  /* max-width: 700px; */
   /* margin: 0 auto; */
   margin-left: 60px;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .our-story h6 {
   color: #31869d;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-transform: capitalize;
   letter-spacing: 0.9px;
 }
 
 .our-story h5 {
-  font-size: 3rem;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
 }
 
 .our-story p {
@@ -350,7 +357,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   margin-top: 70px;
   padding-top: 56px;
@@ -359,7 +366,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   padding-right: 64px;
   border-radius: 20px;
   color: #fff;
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
 }
 
 .mission {
@@ -372,7 +379,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   display: block;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
 }
 
 .mission-vision h4 {
@@ -386,7 +393,6 @@ div.highway-slider ul.highway-lane li.highway-car {
 
 .react-tabs__tab {
   /* border: none !important; */
-
 }
 
 .react-tabs__tab--selected {
@@ -394,21 +400,20 @@ div.highway-slider ul.highway-lane li.highway-car {
   border-left: none !important;
   /* border-right: none !important; */
   border-bottom: 1px solid black !important;
-
 }
 
-.react-tabs__tab-panel--selected  {
+.react-tabs__tab-panel--selected {
   padding: 20px;
 }
 
-.container-2{
+.container-2 {
   position: relative;
   /* width: 50%; */
   max-width: 600px;
   width: 500px;
 }
 
-.container{
+.container {
   position: relative;
   /* width: 50%; */
   max-width: 300px;
@@ -419,19 +424,17 @@ div.highway-slider ul.highway-lane li.highway-car {
   display: block;
   width: 108%;
   height: 250px !important;
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
   margin: 0 auto;
-
 }
 
-
-.container:before:hover{
+.container:before:hover {
   opacity: 0.5;
 }
 
 .middle {
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -443,7 +446,7 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 .container:hover .image {
-  filter: opacity(0.6) drop-shadow(0 0 0 #000); 
+  filter: opacity(0.6) drop-shadow(0 0 0 #000);
 }
 
 .container:hover .middle {
@@ -461,21 +464,21 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 .text {
- cursor: pointer;
+  cursor: pointer;
   color: white !important;
   font-size: 14px;
   padding: 10px 12px;
   border-radius: 3px;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   border: 1px solid black;
   letter-spacing: 1.2px;
   font-weight: 700;
 }
 
-.text:hover{
+.text:hover {
   background-color: #000;
   color: white !important;
-  opacity: 0.5
+  opacity: 0.5;
 }
 
 .tab-grid-container {
@@ -491,12 +494,11 @@ div.highway-slider ul.highway-lane li.highway-car {
   margin: 0 auto;
   padding: 20px;
   margin-top: 50px;
-  
 }
 
- h2 {
+h2 {
   letter-spacing: 1.1px;
-  font-family: 'Cabinet Grotesk', sans-serif;   
+  font-family: "Cabinet Grotesk", sans-serif;
   color: #ffffff;
   text-align: start;
   font-size: 36px;
@@ -508,34 +510,31 @@ div.highway-slider ul.highway-lane li.highway-car {
 
 .project-heading {
   border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 10px 15px;
-    margin-bottom: 10px;
-    letter-spacing: 1.1px;
-    font-family: 'Satoshi', sans-serif;
-
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  letter-spacing: 1.1px;
+  font-family: "Satoshi", sans-serif;
 }
 
 .single-project-info {
-  width:40%
+  width: 40%;
 }
 
 .single-project-info p {
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-weight: 500;
-
 }
 
 .lg-react-element {
   display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0;
-    flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  flex-wrap: wrap;
 }
 
 .single-project-gallery {
-  
-  width: 70%
+  width: 70%;
 }
 
 .img-galley {
@@ -545,18 +544,16 @@ div.highway-slider ul.highway-lane li.highway-car {
   height: auto;
   width: 200px;
   margin-left: 10px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 .tab-grid-container {
   grid-template-columns: repeat(5, 1fr);
 }
 
-
 .css-heg063-MuiTabs-flexContainer {
   justify-content: flex-start;
   margin-left: 7px !important;
-  
 }
 
 .css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
@@ -566,19 +563,18 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 .css-aym9vq-MuiButtonBase-root-MuiTab-root {
-  margin-left: 20px !important
+  margin-left: 20px !important;
 }
 
 .seperator {
   border-top: 4px solid #31869d;
-    margin: 10px 0;
-    padding: 0;
-    height: 1px;
-
+  margin: 10px 0;
+  padding: 0;
+  height: 1px;
 }
 
 .content-body h2 {
-  background : none !important
+  background: none !important;
 }
 
 .content-inner {
@@ -586,7 +582,7 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 .content-inner ul {
-  margin: 20px
+  margin: 20px;
 }
 
 .content-inner li {
@@ -599,9 +595,7 @@ div.highway-slider ul.highway-lane li.highway-car {
 }
 
 .icons {
-
-    margin-left: 170px
-  
+  margin-left: 210px;
 }
 
 .icons a {
@@ -613,7 +607,7 @@ div.highway-slider ul.highway-lane li.highway-car {
 
 a svg:hover {
   scale: 1.2;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
   color: #31869d;
 }
 
@@ -628,7 +622,7 @@ a svg:hover {
 .contact-container h3 {
   margin-bottom: 10px;
   letter-spacing: 1.2px;
-  font-family: 'Cabinet Grotesk', sans-serif;     
+  font-family: "Cabinet Grotesk", sans-serif;
   font-size: 30px;
 }
 
@@ -639,7 +633,7 @@ a svg:hover {
 
 .text-wrap {
   margin-bottom: 20px;
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-weight: 500;
 }
 
@@ -650,7 +644,7 @@ a svg:hover {
 .form-wrapper {
   border: 8px solid #f2f2f2;
   padding: 15px;
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   display: block;
   margin: 0 auto;
 }
@@ -663,15 +657,12 @@ a svg:hover {
   height: 400px;
 }
 
-
-
-
 @media (max-width: 600px) {
   .banner-header p {
     font-size: 2rem;
-    max-width: 100VW;
+    max-width: 100vw;
     letter-spacing: 1.2px;
-  } 
+  }
   .banner-text p {
     font-size: 1rem;
     margin: 0px 0px 24px;
@@ -693,10 +684,9 @@ a svg:hover {
   }
   .about-us {
     flex-direction: column;
-
   }
   .about-us-banner {
-    padding:10px
+    padding: 10px;
   }
   .about-us h3 {
     font-size: 2.1rem;
@@ -720,22 +710,20 @@ a svg:hover {
     flex-direction: column;
   }
 
-.single-project-info {
-  width:100%
-}
-.single-project-gallery {
-  
-  width: 100%
-}
-.tab-grid-container {
-  grid-template-columns: repeat(2, 250px);
-}
+  .single-project-info {
+    width: 100%;
+  }
+  .single-project-gallery {
+    width: 100%;
+  }
+  .tab-grid-container {
+    grid-template-columns: repeat(2, 250px);
+  }
 }
 
 @media (max-width: 1200px) {
   .about-us {
     flex-direction: column;
-
   }
   .about-us h3 {
     font-size: 2.1rem;
@@ -751,11 +739,9 @@ a svg:hover {
     margin-top: 20px;
   }
   .contact-container {
-
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin: 0;
     padding: 14px;
-   
   }
 
   .form-wrapper {
@@ -766,15 +752,44 @@ a svg:hover {
     margin-left: 95px;
   }
 
-
-.tab-grid-container {
-  grid-template-columns: repeat(3, 1fr);
+  .tab-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
+#about {
+  position: relative;
+  font-size: 45px;
+  letter-spacing: 1.5;
+  margin-top: 0;
+  display: flex;
+  white-space: nowrap;
+  text-transform: capitalize;
+  width: 90%;
+  align-items: center;
+  background: linear-gradient(hsla(0, 0%, 95%, 0.755), #181818);
+  background-clip: border-box;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  letter-spacing: 1.5px;
+  margin-bottom: 40px;
 }
 
+#about::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 200px;
+  background-color: rgb(48, 60, 85);
+  position: relative;
+  top: -5px;
+  margin-left: 20px;
+}
 
-
-
-
-
+/* .d-block {
+  height: 200px !important;
+  width: 500px !important;
+} */
