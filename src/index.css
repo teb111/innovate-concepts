@@ -61,14 +61,14 @@ a {
 }
 
 .banner-header p {
-  font-size: 2rem;
+  font-size: 1.88rem;
   font-weight: 800;
   line-height: 1;
   /* max-width: 933px; */
 
   /* color: #101828; */
   margin: 0px 0px 20px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .banner-text p {
