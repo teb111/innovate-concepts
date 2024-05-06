@@ -29,14 +29,16 @@ const HomeScreen = () => {
             </p>
           </div>
 
-          {/* <div className="mt-4">
+          <div className="mt-4">
             <img
-              src="https://res.cloudinary.com/teb/image/upload/v1714808844/Architecture_fwmdym.jpg"
-              className="img"
+              src={
+                "https://res.cloudinary.com/teb/image/upload/v1714805814/Engineering_ymh9zd.jpg"
+              }
+              className="d-block w-100"
               alt="work"
             />
-          </div> */}
-
+          </div>
+          {/* 
           <div>
             <MDBCarousel dark interval={3000}>
               <MDBCarouselItem
@@ -60,7 +62,7 @@ const HomeScreen = () => {
                 itemId={2}
               ></MDBCarouselItem>
             </MDBCarousel>
-          </div>
+          </div> */}
 
           <div className="mt-4 slider">
             <p className="sponsor-text">Trusted by Top African Businesses</p>
@@ -236,7 +238,7 @@ const HomeScreen = () => {
           </h5>
 
           <div className="banner-header">
-            <p style={{ fontSize: "2.3rem", letterSpacing: 1.1 }}>
+            <p style={{ letterSpacing: 1.1 }}>
               {" "}
               We are utilizing technology to &nbsp;
               <span className="animating-text">create</span> solutions to

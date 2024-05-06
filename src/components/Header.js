@@ -23,12 +23,12 @@ const Header = () => {
           paddingTop: "10px",
         }}
       >
-        <MDBContainer fluid>
+        <MDBContainer fluid style={{ padding: 0 }}>
           <MDBNavbarBrand href="#">
             <img
               src="https://res.cloudinary.com/teb/image/upload/v1677657516/IMG_2199_fbwgna.png"
               alt="logo"
-              width={300}
+              width={280}
               // height={100}
             />
           </MDBNavbarBrand>
@@ -60,28 +60,6 @@ const Header = () => {
                 <Link to="/contact">Contact</Link>
               </MDBNavbarItem>
 
-              <div className="icons">
-                <Link to="#">
-                  {" "}
-                  <Facebook sx={{ fontSize: 20 }} />
-                </Link>
-
-                <Link to="#">
-                  {" "}
-                  <YouTube sx={{ fontSize: 20 }} />
-                </Link>
-
-                <Link to="https://www.instagram.com/innovateconceptsng/">
-                  {" "}
-                  <Instagram sx={{ fontSize: 20 }} />
-                </Link>
-
-                <Link to="#">
-                  {" "}
-                  <LinkedIn sx={{ fontSize: 20 }} />
-                </Link>
-              </div>
-
               {/* 
               <MDBNavbarItem>
                 <MDBDropdown>
@@ -107,6 +85,27 @@ const Header = () => {
                 </MDBNavbarLink>
               </MDBNavbarItem> */}
             </MDBNavbarNav>
+            <div className="icons" style={{ display: "flex" }}>
+              <Link to="#">
+                {" "}
+                <Facebook sx={{ fontSize: 20 }} />
+              </Link>
+
+              <Link to="#">
+                {" "}
+                <YouTube sx={{ fontSize: 20 }} />
+              </Link>
+
+              <Link to="https://www.instagram.com/innovateconceptsng/">
+                {" "}
+                <Instagram sx={{ fontSize: 20 }} />
+              </Link>
+
+              <Link to="#">
+                {" "}
+                <LinkedIn sx={{ fontSize: 20 }} />
+              </Link>
+            </div>
           </MDBCollapse>
         </MDBContainer>
       </MDBNavbar>
