@@ -492,7 +492,7 @@ div.highway-slider ul.highway-lane li.highway-car {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 20px;
+  /* padding: 20px; */
   margin-top: 50px;
 }
 
@@ -501,8 +501,8 @@ h2 {
   font-family: "Cabinet Grotesk", sans-serif;
   color: #ffffff;
   text-align: start;
-  font-size: 36px;
-  padding: 35px 39px;
+  font-size: 30px;
+  padding: 22px 27px;
   background-color: #31869d;
   border-radius: 5px;
   width: 100%;
@@ -534,16 +534,16 @@ h2 {
 }
 
 .single-project-gallery {
-  width: 70%;
+  width: 100%;
 }
 
 .img-galley {
-  object-fit: contain;
+  /* object-fit: contain; */
   border-radius: 12px;
   /* max-width: 100% !important; */
-  height: auto;
-  width: 200px;
-  margin-left: 10px;
+  height: 800px !important;
+  /* width: 100% !important; */
+  /* margin-left: 10px; */
   margin-bottom: 20px;
 }
 
@@ -791,6 +791,10 @@ a svg:hover {
 
 .navbar-collapse {
   flex-grow: 0;
+}
+
+.container-img {
+  width: 100%;
 }
 
 /* .d-block {

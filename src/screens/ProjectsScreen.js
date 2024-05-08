@@ -25,7 +25,7 @@ import {
 
 const ProjectsScreen = () => {
   return (
-    <div className="page-container">
+    <div className="page-container container-img">
       <Header />
       <div className="projects-banner">
         <Tabs>
@@ -36,8 +36,8 @@ const ProjectsScreen = () => {
           </TabList>
 
           <TabPanel>
-            <div className="tab-grid-container">
-              <div className="containerss">
+            <div className="tab-grid-container container-img">
+              <div className="container container-img">
                 <img
                   src={proj2?.images[2]?.url}
                   alt={proj2?.images[0]?.alt}
@@ -50,7 +50,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj3?.images[10]?.url}
                   alt={proj3?.images[0]?.alt}
@@ -63,7 +63,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj4?.images[3]?.url}
                   alt={proj4?.images[0]?.alt}
@@ -76,7 +76,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj5?.images[0]?.url}
                   alt={proj5?.images[0]?.alt}
@@ -89,7 +89,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj6?.images[3]?.url}
                   alt={proj6?.images[0]?.alt}
@@ -102,7 +102,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj7?.images[0]?.url}
                   alt={proj7?.images[0]?.alt}
@@ -115,7 +115,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj8?.images[0]?.url}
                   alt={proj8?.images[0]?.alt}
@@ -128,7 +128,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj9?.images[0]?.url}
                   alt={proj9?.images[0]?.alt}
@@ -141,7 +141,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj10?.images[0]?.url}
                   alt={proj10?.images[0]?.alt}
@@ -154,7 +154,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj11?.images[3]?.url}
                   alt={proj11?.images[0]?.alt}
@@ -171,7 +171,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj17?.images[0]?.url}
                   alt={proj17?.images[0]?.alt}
@@ -184,7 +184,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj18?.images[0]?.url}
                   alt={proj18?.images[0]?.alt}
@@ -197,7 +197,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj15?.images[0]?.url}
                   alt={proj15?.images[0]?.alt}
@@ -211,7 +211,7 @@ const ProjectsScreen = () => {
                 </div>
               </div>
 
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj13?.images[0]?.url}
                   alt={proj13?.images[0]?.alt}
@@ -224,7 +224,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj14?.images[0]?.url}
                   alt={proj14?.images[0]?.alt}
@@ -237,7 +237,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj12?.images[0]?.url}
                   alt={proj12?.images[0]?.alt}
@@ -250,7 +250,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj16?.images[0]?.url}
                   alt={proj16?.images[0]?.alt}
@@ -266,8 +266,8 @@ const ProjectsScreen = () => {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="tab-grid-container">
-              <div className="containerss">
+            <div className="tab-grid-container container-img">
+              <div className="container container-img">
                 <img
                   src={proj6?.images[0]?.url}
                   alt={proj6?.images[0]?.alt}
@@ -280,7 +280,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj7?.images[0]?.url}
                   alt={proj7?.images[0]?.alt}
@@ -293,7 +293,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj9?.images[0]?.url}
                   alt={proj9?.images[0]?.alt}
@@ -306,7 +306,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj17?.images[0]?.url}
                   alt={proj17?.images[0]?.alt}
@@ -319,7 +319,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj18?.images[0]?.url}
                   alt={proj18?.images[0]?.alt}
@@ -333,7 +333,7 @@ const ProjectsScreen = () => {
                 </div>
               </div>
 
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj15?.images[0]?.url}
                   alt={proj15?.images[0]?.alt}
@@ -349,8 +349,8 @@ const ProjectsScreen = () => {
             </div>
           </TabPanel>
           <TabPanel>
-            <div className="tab-grid-container">
-              <div className="containerss">
+            <div className="tab-grid-container container-img">
+              <div className="container container-img">
                 <img
                   src={proj2?.images[0]?.url}
                   alt={proj2?.images[0]?.alt}
@@ -363,7 +363,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj3?.images[2]?.url}
                   alt={proj3?.images[0]?.alt}
@@ -376,7 +376,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj4?.images[0]?.url}
                   alt={proj4?.images[0]?.alt}
@@ -389,7 +389,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj5?.images[0]?.url}
                   alt={proj5?.images[0]?.alt}
@@ -403,7 +403,7 @@ const ProjectsScreen = () => {
                 </div>
               </div>
 
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj10?.images[0]?.url}
                   alt={proj10?.images[0]?.alt}
@@ -416,7 +416,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj11?.images[0]?.url}
                   alt={proj11?.images[0]?.alt}
@@ -434,7 +434,7 @@ const ProjectsScreen = () => {
                 </div>
               </div>
 
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj14?.images[0]?.url}
                   alt={proj14?.images[0]?.alt}
@@ -447,7 +447,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj13?.images[0]?.url}
                   alt={proj13?.images[0]?.alt}
@@ -461,7 +461,7 @@ const ProjectsScreen = () => {
                 </div>
               </div>
 
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj12?.images[0]?.url}
                   alt={proj12?.images[0]?.alt}
@@ -474,7 +474,7 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="containerss">
+              <div className="container container-img">
                 <img
                   src={proj16?.images[0]?.url}
                   alt={proj16?.images[0]?.alt}
