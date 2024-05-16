@@ -541,9 +541,11 @@ h2 {
   /* object-fit: contain; */
   border-radius: 12px;
   /* max-width: 100% !important; */
-  height: 1200px !important;
+  /* height: 1200px !important; */
   /* width: 100% !important; */
   /* margin-left: 10px; */
+  width: 1086px;
+  height: 795.792px;
   margin-bottom: 20px;
 }
 
@@ -796,6 +798,12 @@ a svg:hover {
 .container-img {
   width: 100%;
 }
+
+/* .slider-div {
+ 
+  padding: 10px;
+  background-color: grey;
+} */
 
 /* .d-block {
   height: 200px !important;

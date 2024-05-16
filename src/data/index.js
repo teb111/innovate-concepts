@@ -501,26 +501,26 @@ export const proj10 = {
       url: "https://res.cloudinary.com/teb/image/upload/v1715697250/Innovate_Concepts_Viathan_Office_02_m0abf4.jpg",
       alt: "Image one",
     },
-    {
-      url: "https://res.cloudinary.com/teb/image/upload/v1715719556/innovate-concepts/R7_Photo_-_5_pga57t.jpg",
-      alt: "Image one",
-    },
-    {
-      url: "https://res.cloudinary.com/teb/image/upload/v1715719553/innovate-concepts/R7_Photo_-_4_kkrge4.jpg",
-      alt: "Image Two",
-    },
-    {
-      url: "https://res.cloudinary.com/teb/image/upload/v1715719551/innovate-concepts/R7_Photo_-_6_pl54kt.jpg",
-      alt: "Image Three",
-    },
-    {
-      url: "https://res.cloudinary.com/teb/image/upload/v1715719522/innovate-concepts/R7_Photo_-_3_f1nosq.jpg",
-      alt: "Image Four",
-    },
-    {
-      url: "https://res.cloudinary.com/teb/image/upload/v1715719513/innovate-concepts/r4_Photo_-_7_1_nhjj3t.jpg",
-      alt: "Image Five",
-    },
+    // {
+    //   url: "https://res.cloudinary.com/teb/image/upload/v1715719556/innovate-concepts/R7_Photo_-_5_pga57t.jpg",
+    //   alt: "Image one",
+    // },
+    // {
+    //   url: "https://res.cloudinary.com/teb/image/upload/v1715719553/innovate-concepts/R7_Photo_-_4_kkrge4.jpg",
+    //   alt: "Image Two",
+    // },
+    // {
+    //   url: "https://res.cloudinary.com/teb/image/upload/v1715719551/innovate-concepts/R7_Photo_-_6_pl54kt.jpg",
+    //   alt: "Image Three",
+    // },
+    // {
+    //   url: "https://res.cloudinary.com/teb/image/upload/v1715719522/innovate-concepts/R7_Photo_-_3_f1nosq.jpg",
+    //   alt: "Image Four",
+    // },
+    // {
+    //   url: "https://res.cloudinary.com/teb/image/upload/v1715719513/innovate-concepts/r4_Photo_-_7_1_nhjj3t.jpg",
+    //   alt: "Image Five",
+    // },
     //from here
     {
       url: "https://res.cloudinary.com/teb/image/upload/v1678199977/innovate-concepts/viathan/Yinka_Dayo-Adepoju_IPP_Marina_Office_14_jydqes.jpg",

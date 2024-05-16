@@ -35,7 +35,7 @@ const SingleProjectScreen = () => {
               </a>
             ))}
           </LightGallery> */}
-            <div>
+            <div className="slider-div">
               <MDBCarousel interval={3000} showIndicators showControls pause>
                 {from?.images?.map((i, index) => (
                   <MDBCarouselItem
