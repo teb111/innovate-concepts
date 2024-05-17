@@ -237,10 +237,10 @@ export const proj4 = {
       url: "https://res.cloudinary.com/teb/image/upload/v1678194746/innovate-concepts/9_exw6if.jpg",
       alt: "Image Two",
     },
-    {
-      url: "https://res.cloudinary.com/teb/image/upload/v1678194746/innovate-concepts/7_dqpmqk.jpg",
-      alt: "Image Three",
-    },
+    // {
+    //   url: "https://res.cloudinary.com/teb/image/upload/v1678194746/innovate-concepts/7_dqpmqk.jpg",
+    //   alt: "Image Three",
+    // },
     {
       url: "https://res.cloudinary.com/teb/image/upload/v1678194738/innovate-concepts/2_ejtmge.jpg",
       alt: "Image Four",
@@ -904,5 +904,63 @@ export const proj19 = {
       url: "https://res.cloudinary.com/teb/image/upload/v1715701677/r4_Photo_-_7_1_r1odro.jpg",
       alt: "Image Five",
     },
+  ],
+};
+
+export const proj20 = {
+  heading: "VIATHAN LEKKI OFFICE",
+  textBox: [
+    {
+      title: "Client",
+      Body: "VIATHAN LEKKI OFFICE",
+    },
+    {
+      title: "Status",
+      Body: "Completed",
+    },
+    {
+      title: "Location",
+      Body: "Lekki, Lagos",
+    },
+  ],
+
+  images: [
+    {
+      url: "https://res.cloudinary.com/teb/image/upload/v1715719556/innovate-concepts/R7_Photo_-_5_pga57t.jpg",
+      alt: "Image one",
+    },
+    {
+      url: "https://res.cloudinary.com/teb/image/upload/v1715719553/innovate-concepts/R7_Photo_-_4_kkrge4.jpg",
+      alt: "Image Two",
+    },
+    {
+      url: "https://res.cloudinary.com/teb/image/upload/v1715719551/innovate-concepts/R7_Photo_-_6_pl54kt.jpg",
+      alt: "Image Three",
+    },
+    {
+      url: "https://res.cloudinary.com/teb/image/upload/v1715719522/innovate-concepts/R7_Photo_-_3_f1nosq.jpg",
+      alt: "Image Four",
+    },
+    {
+      url: "https://res.cloudinary.com/teb/image/upload/v1715719513/innovate-concepts/r4_Photo_-_7_1_nhjj3t.jpg",
+      alt: "Image Five",
+    },
+    //from here
+    // {
+    //   url: "https://res.cloudinary.com/teb/image/upload/v1678199977/innovate-concepts/viathan/Yinka_Dayo-Adepoju_IPP_Marina_Office_14_jydqes.jpg",
+    //   alt: "Image one",
+    // },
+    // {
+    //   url: "https://res.cloudinary.com/teb/image/upload/v1678199965/innovate-concepts/viathan/Yinka_Dayo-Adepoju_IPP_Marina_Office_06_t2moml.jpg",
+    //   alt: "Image Two",
+    // },
+    // {
+    //   url: "https://res.cloudinary.com/teb/image/upload/v1678199964/innovate-concepts/viathan/Yinka_Dayo-Adepoju_IPP_Marina_Office_11_o9bmul.jpg",
+    //   alt: "Image Three",
+    // },
+    // {
+    //   url: "https://res.cloudinary.com/teb/image/upload/v1678200031/innovate-concepts/viathan/Meeting_table_2_sk9gzd.jpg",
+    //   alt: "Image Four",
+    // },
   ],
 };

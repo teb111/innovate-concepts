@@ -22,6 +22,7 @@ import {
   proj12,
   proj16,
   proj19,
+  proj20,
 } from "../data";
 
 const ProjectsScreen = () => {
@@ -272,6 +273,19 @@ const ProjectsScreen = () => {
                 <div className="middle">
                   <span>{proj12?.heading}</span>
                   <Link to="/project" state={{ from: proj12 }} className="text">
+                    Quick View
+                  </Link>
+                </div>
+              </div>
+              <div className="container container-img">
+                <img
+                  src={proj20?.images[4]?.url}
+                  alt={proj20?.images[0]?.alt}
+                  className="image"
+                />
+                <div className="middle">
+                  <span>{proj20?.heading}</span>
+                  <Link to="/project" state={{ from: proj20 }} className="text">
                     Quick View
                   </Link>
                 </div>
