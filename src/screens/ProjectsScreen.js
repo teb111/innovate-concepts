@@ -373,6 +373,32 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
+              <div className="container container-img">
+                <img
+                  src={proj13?.images[0]?.url}
+                  alt={proj13?.images[0]?.alt}
+                  className="image"
+                />
+                <div className="middle">
+                  <span>{proj13?.heading}</span>
+                  <Link to="/project" state={{ from: proj13 }} className="text">
+                    Quick View
+                  </Link>
+                </div>
+              </div>
+              <div className="container container-img">
+                <img
+                  src={proj19?.images[0]?.url}
+                  alt={proj19?.images[0]?.alt}
+                  className="image"
+                />
+                <div className="middle">
+                  <span>{proj19?.heading}</span>
+                  <Link to="/project" state={{ from: proj19 }} className="text">
+                    Quick View
+                  </Link>
+                </div>
+              </div>
             </div>
           </TabPanel>
           <TabPanel>
@@ -470,19 +496,6 @@ const ProjectsScreen = () => {
                 <div className="middle">
                   <span>{proj14?.heading}</span>
                   <Link to="/project" state={{ from: proj14 }} className="text">
-                    Quick View
-                  </Link>
-                </div>
-              </div>
-              <div className="container container-img">
-                <img
-                  src={proj13?.images[0]?.url}
-                  alt={proj13?.images[0]?.alt}
-                  className="image"
-                />
-                <div className="middle">
-                  <span>{proj13?.heading}</span>
-                  <Link to="/project" state={{ from: proj13 }} className="text">
                     Quick View
                   </Link>
                 </div>
