@@ -799,6 +799,10 @@ a svg:hover {
   width: 100%;
 }
 
+.services-img {
+  height: 700px;
+}
+
 /* .slider-div {
  
   padding: 10px;
