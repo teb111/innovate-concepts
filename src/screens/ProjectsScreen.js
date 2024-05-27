@@ -279,7 +279,7 @@ const ProjectsScreen = () => {
               </div>
               <div className="container container-img">
                 <img
-                  src={proj20?.images[4]?.url}
+                  src={proj20?.images[0]?.url}
                   alt={proj20?.images[0]?.alt}
                   className="image"
                 />

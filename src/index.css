@@ -617,8 +617,8 @@ a svg:hover {
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(2, 1fr);
-  margin: 25px;
-  padding: 50px;
+  /* margin: 25px;
+  padding: 50px; */
 }
 
 .contact-container h3 {
@@ -801,6 +801,58 @@ a svg:hover {
 
 .services-img {
   height: 700px;
+}
+
+.service-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.service-box {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  background-color: #31869d;
+  border-radius: 5px;
+}
+
+.box-border {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  border: 2px solid #ffffff; /* Change the color and width as desired */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; /* Adjust padding if needed */
+}
+
+.box-text {
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.service-title {
+  margin-top: 25px;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+}
+
+.single-service-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* .slider-div {

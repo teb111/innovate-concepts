@@ -7,6 +7,7 @@ import { CheckOutlined } from "@mui/icons-material";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
+import { Link } from "react-router-dom";
 
 const ServiceScreen = () => {
   const [value, setValue] = React.useState(0);
@@ -45,7 +46,7 @@ const ServiceScreen = () => {
     <>
       <div className="page-container">
         <Header />
-        <Tabs
+        {/* <Tabs
           value={value}
           onChange={handleChange}
           // aria-label='icon label tabs example'
@@ -330,7 +331,38 @@ const ServiceScreen = () => {
               alt="work"
             />
           </div>
-        </TabPanel>
+        </TabPanel> */}
+
+        <div className="service-container">
+          <Link to="/services">
+            <div className="service-box">
+              <div className="box-border">
+                <p className="box-text">Architecture</p>
+              </div>
+            </div>
+          </Link>
+          <Link to="/services">
+            <div className="service-box">
+              <div className="box-border">
+                <p className="box-text">Engineering</p>
+              </div>
+            </div>
+          </Link>
+          <Link to="/services">
+            <div className="service-box">
+              <div className="box-border">
+                <p className="box-text">Project Management</p>
+              </div>
+            </div>
+          </Link>
+          <Link to="/services">
+            <div className="service-box">
+              <div className="box-border">
+                <p className="box-text">Construction</p>
+              </div>
+            </div>
+          </Link>
+        </div>
       </div>
     </>
   );
