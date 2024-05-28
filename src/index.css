@@ -819,6 +819,11 @@ a svg:hover {
   padding: 10px;
   background-color: #31869d;
   border-radius: 5px;
+  transition: 0.4s ease-in-out;
+}
+
+.service-box:hover {
+  opacity: 0.6;
 }
 
 .box-border {

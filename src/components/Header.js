@@ -47,9 +47,9 @@ const Header = () => {
               <MDBNavbarItem>
                 <Link to="/">Home</Link>
               </MDBNavbarItem>
-              {/* <MDBNavbarItem>
-                <Link to="#about">About</Link>
-              </MDBNavbarItem> */}
+              <MDBNavbarItem>
+                <Link to="/about">About</Link>
+              </MDBNavbarItem>
               <MDBNavbarItem>
                 <Link to="/projects">Projects</Link>
               </MDBNavbarItem>
