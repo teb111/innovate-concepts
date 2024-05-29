@@ -860,6 +860,15 @@ a svg:hover {
   grid-template-columns: 1fr 1fr;
 }
 
+.content-header {
+  /* text-align: center; */
+    font-size: 24px;
+    color: #31869d;
+    font-weight: bold;
+    letter-spacing: 1.1px;
+   margin-left: 59px;
+}
+
 /* .slider-div {
  
   padding: 10px;

@@ -1,20 +1,25 @@
-import React from "react";
-import Header from "../components/Header";
+import React from "react"
+import Header from "../components/Header"
 
 const AboutScreen = () => {
   return (
     <div className="page-container">
       <Header />
-      <h5
+      {/* <h5
         style={{
           marginTop: "2rem",
         }}
         id="about"
       >
         About Us
-      </h5>
+      </h5> */}
 
-      <div className="banner-header">
+      <div
+        className="banner-header"
+        style={{
+          marginTop: "2rem"
+        }}
+      >
         <p style={{ letterSpacing: 1.1 }}>
           {" "}
           We are utilizing technology to &nbsp;
@@ -86,7 +91,7 @@ const AboutScreen = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutScreen;
+export default AboutScreen

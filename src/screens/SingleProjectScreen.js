@@ -1,21 +1,21 @@
-import React from "react";
-import Header from "../components/Header";
-import LightGallery from "lightgallery/react";
+import React from "react"
+import Header from "../components/Header"
+import LightGallery from "lightgallery/react"
 
 // import styles
-import "lightgallery/css/lightgallery.css";
-import "lightgallery/css/lg-zoom.css";
-import "lightgallery/css/lg-thumbnail.css";
+import "lightgallery/css/lightgallery.css"
+import "lightgallery/css/lg-zoom.css"
+import "lightgallery/css/lg-thumbnail.css"
 
-import lgThumbnail from "lightgallery/plugins/thumbnail";
-import lgZoom from "lightgallery/plugins/zoom";
-import { useLocation } from "react-router-dom";
-import { MDBBtn, MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+import lgThumbnail from "lightgallery/plugins/thumbnail"
+import lgZoom from "lightgallery/plugins/zoom"
+import { useLocation } from "react-router-dom"
+import { MDBBtn, MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit"
 
 const SingleProjectScreen = () => {
-  const location = useLocation();
-  const { from } = location?.state;
-  console.log(from);
+  const location = useLocation()
+  const { from } = location?.state
+  console.log(from)
   return (
     <>
       <div className="page-container">
@@ -69,7 +69,7 @@ const SingleProjectScreen = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default SingleProjectScreen;
+export default SingleProjectScreen

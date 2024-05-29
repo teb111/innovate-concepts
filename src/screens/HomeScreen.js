@@ -1,29 +1,31 @@
-import { MDBBtn, MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
-import React from "react";
-import Header from "../components/Header";
-import Carousel from "react-bootstrap/Carousel";
-import { Link } from "react-router-dom";
+import { MDBBtn, MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit"
+import React from "react"
+import Header from "../components/Header"
+import Carousel from "react-bootstrap/Carousel"
+import { Link } from "react-router-dom"
 
 const Slide = ({ number }) => (
   <div>
     <img src={`https://via.placeholder.com/328x164.png?text=Slide ${number}`} />
   </div>
-);
+)
 
 const HomeScreen = () => {
   const architecture = {
     img: "https://res.cloudinary.com/teb/image/upload/v1716741190/Architecture_x7upbc.jpg",
+    title: "Architecture",
     lists: [
       "Brief Formulation",
       "Feasibility Studies",
       "Concept Design",
       "Preliminary Drawing",
       "Production Information",
-      "Contract Administration and Supervision",
-    ],
-  };
+      "Contract Administration and Supervision"
+    ]
+  }
   const engineering = {
     img: "https://res.cloudinary.com/teb/image/upload/v1716741189/Engineering_lit3do.jpg",
+    title: "Engineering",
     lists: [
       "Power Distribution System Design",
       "Power Quality Testing & Monitoring",
@@ -49,12 +51,13 @@ const HomeScreen = () => {
       "Burglar Alarms",
       "CCTV",
       "Access Control",
-      "Voice & Data Systems",
-    ],
-  };
+      "Voice & Data Systems"
+    ]
+  }
 
   const projectManagement = {
     img: "https://res.cloudinary.com/teb/image/upload/v1716741191/Project_mgt_llp1yp.jpg",
+    title: "Project Management",
     lists: [
       "Project Feasibility & Inception",
       "Project Guidance & Pre-Contract",
@@ -63,13 +66,14 @@ const HomeScreen = () => {
       "Cost Control & Content Analysis + Recommendations",
       "Quality Control and Monitoring & Control of Construction Processes",
       "Content Framework",
-      "HSE Awareness",
-    ],
-  };
+      "HSE Awareness"
+    ]
+  }
 
   const construction = {
     img: "https://res.cloudinary.com/teb/image/upload/v1716741198/Construction_wgk6vg.jpg",
-  };
+    title: "Construction"
+  }
   return (
     <>
       <div className="page-container">
@@ -338,7 +342,7 @@ const HomeScreen = () => {
       </MDBCarousel> */}
       {/* </div> */}
     </>
-  );
-};
+  )
+}
 
-export default HomeScreen;
+export default HomeScreen

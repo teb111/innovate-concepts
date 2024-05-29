@@ -1,11 +1,11 @@
-import React from "react";
-import { useLocation } from "react-router-dom";
-import ArrowRightIcon from "@mui/icons-material/ArrowRight";
-import Header from "../components/Header";
+import React from "react"
+import { useLocation } from "react-router-dom"
+import ArrowRightIcon from "@mui/icons-material/ArrowRight"
+import Header from "../components/Header"
 
 const SingleServiceScreen = () => {
-  const location = useLocation();
-  const { from } = location?.state;
+  const location = useLocation()
+  const { from } = location?.state
 
   return (
     <>
@@ -18,6 +18,7 @@ const SingleServiceScreen = () => {
             </div>
             <div className="content-inner">
               <div className="content-list">
+                <h1 className="content-header">{from?.title}</h1>
                 <ul style={{ marginTop: 0 }}>
                   {from?.lists?.map((list, i) => (
                     <li key={i} style={{ marginLeft: 0 }}>
@@ -32,7 +33,7 @@ const SingleServiceScreen = () => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default SingleServiceScreen;
+export default SingleServiceScreen

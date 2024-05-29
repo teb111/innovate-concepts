@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
-import Header from "../components/Header";
+import React from "react"
+import { Link } from "react-router-dom"
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs"
+import "react-tabs/style/react-tabs.css"
+import Header from "../components/Header"
 import {
   proj2,
   proj3,
@@ -22,8 +22,8 @@ import {
   proj12,
   proj16,
   proj19,
-  proj20,
-} from "../data";
+  proj20
+} from "../data"
 
 const ProjectsScreen = () => {
   return (
@@ -399,6 +399,32 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
+              <div className="container container-img">
+                <img
+                  src={proj14?.images[0]?.url}
+                  alt={proj14?.images[0]?.alt}
+                  className="image"
+                />
+                <div className="middle">
+                  <span>{proj14?.heading}</span>
+                  <Link to="/project" state={{ from: proj14 }} className="text">
+                    Quick View
+                  </Link>
+                </div>
+              </div>
+              <div className="container container-img">
+                <img
+                  src={proj16?.images[0]?.url}
+                  alt={proj16?.images[0]?.alt}
+                  className="image"
+                />
+                <div className="middle">
+                  <span>{proj16?.heading}</span>
+                  <Link to="/project" state={{ from: proj16 }} className="text">
+                    Quick View
+                  </Link>
+                </div>
+              </div>
             </div>
           </TabPanel>
           <TabPanel>
@@ -489,20 +515,6 @@ const ProjectsScreen = () => {
 
               <div className="container container-img">
                 <img
-                  src={proj14?.images[0]?.url}
-                  alt={proj14?.images[0]?.alt}
-                  className="image"
-                />
-                <div className="middle">
-                  <span>{proj14?.heading}</span>
-                  <Link to="/project" state={{ from: proj14 }} className="text">
-                    Quick View
-                  </Link>
-                </div>
-              </div>
-
-              <div className="container container-img">
-                <img
                   src={proj12?.images[0]?.url}
                   alt={proj12?.images[0]?.alt}
                   className="image"
@@ -514,25 +526,12 @@ const ProjectsScreen = () => {
                   </Link>
                 </div>
               </div>
-              <div className="container container-img">
-                <img
-                  src={proj16?.images[0]?.url}
-                  alt={proj16?.images[0]?.alt}
-                  className="image"
-                />
-                <div className="middle">
-                  <span>{proj16?.heading}</span>
-                  <Link to="/project" state={{ from: proj16 }} className="text">
-                    Quick View
-                  </Link>
-                </div>
-              </div>
             </div>
           </TabPanel>
         </Tabs>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProjectsScreen;
+export default ProjectsScreen
