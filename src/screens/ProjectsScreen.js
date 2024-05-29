@@ -296,7 +296,7 @@ const ProjectsScreen = () => {
             <div className="tab-grid-container container-img">
               <div className="container container-img">
                 <img
-                  src={proj6?.images[0]?.url}
+                  src={proj6?.images[2]?.url}
                   alt={proj6?.images[0]?.alt}
                   className="image"
                 />
@@ -405,7 +405,7 @@ const ProjectsScreen = () => {
             <div className="tab-grid-container container-img">
               <div className="container container-img">
                 <img
-                  src={proj2?.images[0]?.url}
+                  src={proj2?.images[2]?.url}
                   alt={proj2?.images[0]?.alt}
                   className="image"
                 />
@@ -418,7 +418,7 @@ const ProjectsScreen = () => {
               </div>
               <div className="container container-img">
                 <img
-                  src={proj3?.images[2]?.url}
+                  src={proj3?.images[10]?.url}
                   alt={proj3?.images[0]?.alt}
                   className="image"
                 />
@@ -431,7 +431,7 @@ const ProjectsScreen = () => {
               </div>
               <div className="container container-img">
                 <img
-                  src={proj4?.images[0]?.url}
+                  src={proj4?.images[3]?.url}
                   alt={proj4?.images[0]?.alt}
                   className="image"
                 />
@@ -471,7 +471,7 @@ const ProjectsScreen = () => {
               </div>
               <div className="container container-img">
                 <img
-                  src={proj11?.images[0]?.url}
+                  src={proj11?.images[3]?.url}
                   alt={proj11?.images[0]?.alt}
                   className="image"
                 />
