@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from "react"
 import {
   MDBContainer,
   MDBNavbar,
@@ -8,19 +8,19 @@ import {
   MDBNavbarNav,
   MDBNavbarItem,
   MDBNavbarLink,
-  MDBCollapse,
-} from "mdb-react-ui-kit";
-import { Link } from "react-router-dom";
-import { Facebook, Instagram, LinkedIn, YouTube } from "@mui/icons-material";
+  MDBCollapse
+} from "mdb-react-ui-kit"
+import { Link } from "react-router-dom"
+import { Facebook, Instagram, LinkedIn, YouTube } from "@mui/icons-material"
 const Header = () => {
-  const [showBasic, setShowBasic] = useState(false);
+  const [showBasic, setShowBasic] = useState(false)
   return (
     <>
       <MDBNavbar
         expand="lg"
         style={{
           paddingBottom: "11px",
-          paddingTop: "10px",
+          paddingTop: "10px"
         }}
       >
         <MDBContainer fluid style={{ padding: 0 }}>
@@ -96,7 +96,10 @@ const Header = () => {
                 <YouTube sx={{ fontSize: 20 }} />
               </Link>
 
-              <Link to="https://www.instagram.com/innovateconceptsng/">
+              <Link
+                to="https://www.instagram.com/innovateconceptsng/"
+                target="_blank"
+              >
                 {" "}
                 <Instagram sx={{ fontSize: 20 }} />
               </Link>
@@ -110,7 +113,7 @@ const Header = () => {
         </MDBContainer>
       </MDBNavbar>
     </>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

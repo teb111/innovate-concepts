@@ -295,7 +295,7 @@ const HomeScreen = () => {
             <Link state={{ from: architecture }} to="/single-service">
               <div className="service-box">
                 <div className="box-border">
-                  <p className="box-text">Architecture</p>
+                  <p className="box-text">Architecture + Interior Design</p>
                 </div>
               </div>
             </Link>
