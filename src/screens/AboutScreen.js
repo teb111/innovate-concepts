@@ -30,7 +30,7 @@ const AboutScreen = () => {
 
       <div className="our-story pt-5">
         <h6 className="">our story</h6>
-        <h5>Who we are</h5>
+        {/* <h5>Who we are</h5> */}
         <p>
           INNOVATE CONCEPTS LTD is a firm of Chartered Architects, Interior
           Designers, Project Managers and Builders which provide Architectural

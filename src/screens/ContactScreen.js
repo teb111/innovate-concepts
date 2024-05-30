@@ -1,27 +1,27 @@
-import React, { useState } from "react";
-import Header from "../components/Header";
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
-import Textarea from "@mui/joy/Textarea";
-import { Button } from "@mui/material";
-import { sendMail } from "../utils";
+import React, { useState } from "react"
+import Header from "../components/Header"
+import Box from "@mui/material/Box"
+import TextField from "@mui/material/TextField"
+import Textarea from "@mui/joy/Textarea"
+import { Button } from "@mui/material"
+import { sendMail } from "../utils"
 
 const ContactScreen = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [subject, setSubject] = useState("")
+  const [message, setMessage] = useState("")
 
   const submitHandler = (e) => {
-    e.preventDefault();
+    e.preventDefault()
     const reqBody = {
       name,
       email,
       subject,
-      message,
-    };
-    sendMail(reqBody);
-  };
+      message
+    }
+    sendMail(reqBody)
+  }
   return (
     <div className="page-container">
       <Header />
@@ -41,14 +41,7 @@ const ContactScreen = () => {
               {" "}
               <span>Email:</span>{" "}
               <a href="mailto:info@innovateconceptsltd.com">
-                info@innovateconceptsltd.com
-              </a>
-            </p>
-            <p>
-              {" "}
-              <span>Email:</span>{" "}
-              <a href="mailto:innovatearchitects@yahoo.com">
-                innovatearchitects@yahoo.com
+                Projects@innovateconceptsltd.com
               </a>
             </p>
           </p>
@@ -72,7 +65,7 @@ const ContactScreen = () => {
             <Box
               component="form"
               sx={{
-                "& .MuiTextField-root": { m: 1, width: "100%" },
+                "& .MuiTextField-root": { m: 1, width: "100%" }
               }}
               noValidate
               autoComplete="off"
@@ -124,7 +117,7 @@ const ContactScreen = () => {
                 marginTop: "20px",
                 display: "flex",
                 justifyContent: "flex-end",
-                padding: "10px",
+                padding: "10px"
               }}
               onClick={submitHandler}
             >
@@ -134,7 +127,7 @@ const ContactScreen = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ContactScreen;
+export default ContactScreen
